@@ -17,6 +17,38 @@
 		3EA5EE5A1F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5EE591F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift */; };
 		3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDE40E1F98C79200810993 /* KX_LoginVC.swift */; };
 		3EFDE4111F98C79200810993 /* KX_LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDE40F1F98C79200810993 /* KX_LoginVC.xib */; };
+		8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */; };
+		8FA827551FA1F9A7002D59A5 /* KX_AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */; };
+		8FA827761FA1FA32002D59A5 /* 向右.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827581FA1FA32002D59A5 /* 向右.png */; };
+		8FA827771FA1FA32002D59A5 /* 赞过回复的人60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */; };
+		8FA827781FA1FA32002D59A5 /* 750-128.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275A1FA1FA32002D59A5 /* 750-128.jpg */; };
+		8FA827791FA1FA32002D59A5 /* 底部-我.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275B1FA1FA32002D59A5 /* 底部-我.png */; };
+		8FA8277A1FA1FA32002D59A5 /* 选择-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275C1FA1FA32002D59A5 /* 选择-1.png */; };
+		8FA8277B1FA1FA32002D59A5 /* 底部-我-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275D1FA1FA32002D59A5 /* 底部-我-1.png */; };
+		8FA8277C1FA1FA32002D59A5 /* 750-128-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275E1FA1FA32002D59A5 /* 750-128-1.png */; };
+		8FA8277D1FA1FA32002D59A5 /* 个人资料-默认图像120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275F1FA1FA32002D59A5 /* 个人资料-默认图像120.png */; };
+		8FA8277E1FA1FA32002D59A5 /* 筛选.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827601FA1FA32002D59A5 /* 筛选.png */; };
+		8FA8277F1FA1FA32002D59A5 /* 筛选-选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827611FA1FA32002D59A5 /* 筛选-选中.png */; };
+		8FA827801FA1FA32002D59A5 /* 底部-消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827621FA1FA32002D59A5 /* 底部-消息.png */; };
+		8FA827811FA1FA32002D59A5 /* 原图选择-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827631FA1FA32002D59A5 /* 原图选择-1.png */; };
+		8FA827821FA1FA32002D59A5 /* 日志默认头像72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827641FA1FA32002D59A5 /* 日志默认头像72.png */; };
+		8FA827831FA1FA32002D59A5 /* 搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827651FA1FA32002D59A5 /* 搜索.png */; };
+		8FA827841FA1FA32002D59A5 /* 修改密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827661FA1FA32002D59A5 /* 修改密码.png */; };
+		8FA827851FA1FA32002D59A5 /* 选择.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827671FA1FA32002D59A5 /* 选择.png */; };
+		8FA827861FA1FA32002D59A5 /* 底部-工作-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827681FA1FA32002D59A5 /* 底部-工作-1.png */; };
+		8FA827871FA1FA32002D59A5 /* 搜索 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827691FA1FA32002D59A5 /* 搜索 (2).png */; };
+		8FA827881FA1FA32002D59A5 /* 底部-应用.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276A1FA1FA32002D59A5 /* 底部-应用.png */; };
+		8FA827891FA1FA32002D59A5 /* 圆角矩形-1.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276B1FA1FA32002D59A5 /* 圆角矩形-1.9.png */; };
+		8FA8278A1FA1FA32002D59A5 /* 向下.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276C1FA1FA32002D59A5 /* 向下.png */; };
+		8FA8278B1FA1FA32002D59A5 /* 原图选择.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276D1FA1FA32002D59A5 /* 原图选择.png */; };
+		8FA8278C1FA1FA32002D59A5 /* 向上.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276E1FA1FA32002D59A5 /* 向上.jpg */; };
+		8FA8278D1FA1FA32002D59A5 /* 底部-消息-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8276F1FA1FA32002D59A5 /* 底部-消息-1.png */; };
+		8FA8278E1FA1FA32002D59A5 /* 底部-工作.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827701FA1FA32002D59A5 /* 底部-工作.png */; };
+		8FA8278F1FA1FA32002D59A5 /* 修改密码-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827711FA1FA32002D59A5 /* 修改密码-1.png */; };
+		8FA827901FA1FA32002D59A5 /* 添加.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827721FA1FA32002D59A5 /* 添加.png */; };
+		8FA827911FA1FA32002D59A5 /* 底部-应用-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827731FA1FA32002D59A5 /* 底部-应用-1.png */; };
+		8FA827921FA1FA32002D59A5 /* 头部-返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827741FA1FA32002D59A5 /* 头部-返回.png */; };
+		8FA827931FA1FA32002D59A5 /* 选择员工-默认头像92.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */; };
 		C1D327906FC636EB2FDAE437 /* Pods_KUAIXIAO_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14988DE91CD1598CC7D74FF /* Pods_KUAIXIAO_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,343 +88,41 @@
 		3EFDE4041F98C66900810993 /* KUAIXIAO_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUAIXIAO_SwiftUITests.swift; sourceTree = "<group>"; };
 		3EFDE40E1F98C79200810993 /* KX_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LoginVC.swift; sourceTree = "<group>"; };
 		3EFDE40F1F98C79200810993 /* KX_LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KX_LoginVC.xib; sourceTree = "<group>"; };
-		3EFDE4141F98C92100810993 /* 图层-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图层-3@2x.png"; path = "../../../切图/48-48/图层-3@2x.png"; sourceTree = "<group>"; };
-		3EFDE4151F98C92200810993 /* @@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "@@2x.png"; path = "../../../切图/48-48/@@2x.png"; sourceTree = "<group>"; };
-		3EFDE4161F98C92200810993 /* 图层-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图层-4@2x.png"; path = "../../../切图/48-48/图层-4@2x.png"; sourceTree = "<group>"; };
-		3EFDE4171F98C92200810993 /* 组-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "组-2@2x.png"; path = "../../../切图/48-48/组-2@2x.png"; sourceTree = "<group>"; };
-		3EFDE4181F98C92200810993 /* 形状-1-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "形状-1-拷贝@2x.png"; path = "../../../切图/48-48/形状-1-拷贝@2x.png"; sourceTree = "<group>"; };
-		3EFDE4191F98C92200810993 /* 组-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "组-1@2x.png"; path = "../../../切图/48-48/组-1@2x.png"; sourceTree = "<group>"; };
-		3EFDE41A1F98C92200810993 /* 图层-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "图层-2@2x.png"; path = "../../../切图/48-48/图层-2@2x.png"; sourceTree = "<group>"; };
-		3EFDE41B1F98C92C00810993 /* 发日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志.png"; path = "../../../切图/工作/发日志.png"; sourceTree = "<group>"; };
-		3EFDE41C1F98C92C00810993 /* 审批-相机-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-相机-36.png"; path = "../../../切图/工作/审批-相机-36.png"; sourceTree = "<group>"; };
-		3EFDE41D1F98C92C00810993 /* 所有日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "所有日志.png"; path = "../../../切图/工作/所有日志.png"; sourceTree = "<group>"; };
-		3EFDE41E1F98C92C00810993 /* 统计-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "统计-3.png"; path = "../../../切图/工作/统计-3.png"; sourceTree = "<group>"; };
-		3EFDE4201F98C92C00810993 /* 全部审批-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部审批-.jpg"; sourceTree = "<group>"; };
-		3EFDE4211F98C92C00810993 /* 全部审批-筛选.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部审批-筛选.jpg"; sourceTree = "<group>"; };
-		3EFDE4221F98C92C00810993 /* 全部审批-筛选.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部审批-筛选.psd"; sourceTree = "<group>"; };
-		3EFDE4231F98C92C00810993 /* 全部审批-详情-完成.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部审批-详情-完成.jpg"; sourceTree = "<group>"; };
-		3EFDE4241F98C92C00810993 /* 全部审批-详情-完成.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部审批-详情-完成.psd"; sourceTree = "<group>"; };
-		3EFDE4251F98C92C00810993 /* 全部审批-详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部审批-详情.jpg"; sourceTree = "<group>"; };
-		3EFDE4261F98C92C00810993 /* 全部审批-详情.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部审批-详情.psd"; sourceTree = "<group>"; };
-		3EFDE4271F98C92C00810993 /* 全部审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部审批.jpg"; sourceTree = "<group>"; };
-		3EFDE4281F98C92C00810993 /* 全部审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部审批.psd"; sourceTree = "<group>"; };
-		3EFDE4291F98C92C00810993 /* 出差.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "出差.jpg"; sourceTree = "<group>"; };
-		3EFDE42A1F98C92C00810993 /* 出差.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "出差.psd"; sourceTree = "<group>"; };
-		3EFDE42B1F98C92C00810993 /* 加班.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加班.jpg"; sourceTree = "<group>"; };
-		3EFDE42C1F98C92C00810993 /* 加班.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "加班.psd"; sourceTree = "<group>"; };
-		3EFDE42D1F98C92C00810993 /* 外出.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "外出.jpg"; sourceTree = "<group>"; };
-		3EFDE42E1F98C92C00810993 /* 外出.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "外出.psd"; sourceTree = "<group>"; };
-		3EFDE42F1F98C92C00810993 /* 审批-搜索-高级.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "审批-搜索-高级.jpg"; sourceTree = "<group>"; };
-		3EFDE4301F98C92C00810993 /* 审批-搜索-高级.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "审批-搜索-高级.psd"; sourceTree = "<group>"; };
-		3EFDE4311F98C92C00810993 /* 审批-搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "审批-搜索.jpg"; sourceTree = "<group>"; };
-		3EFDE4321F98C92C00810993 /* 审批-搜索.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "审批-搜索.psd"; sourceTree = "<group>"; };
-		3EFDE4331F98C92C00810993 /* 审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "审批.jpg"; sourceTree = "<group>"; };
-		3EFDE4341F98C92C00810993 /* 审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "审批.psd"; sourceTree = "<group>"; };
-		3EFDE4351F98C92C00810993 /* 我发出的审批-已审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的审批-已审批.jpg"; sourceTree = "<group>"; };
-		3EFDE4361F98C92C00810993 /* 我发出的审批-已审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我发出的审批-已审批.psd"; sourceTree = "<group>"; };
-		3EFDE4371F98C92C00810993 /* 我发出的审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的审批.jpg"; sourceTree = "<group>"; };
-		3EFDE4381F98C92D00810993 /* 我发出的审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我发出的审批.psd"; sourceTree = "<group>"; };
-		3EFDE4391F98C92D00810993 /* 我收到的-已审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我收到的-已审批.jpg"; sourceTree = "<group>"; };
-		3EFDE43A1F98C92D00810993 /* 我收到的-已审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我收到的-已审批.psd"; sourceTree = "<group>"; };
-		3EFDE43B1F98C92D00810993 /* 我收到的审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我收到的审批.jpg"; sourceTree = "<group>"; };
-		3EFDE43C1F98C92D00810993 /* 我收到的审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我收到的审批.psd"; sourceTree = "<group>"; };
-		3EFDE43D1F98C92D00810993 /* 报销.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "报销.jpg"; sourceTree = "<group>"; };
-		3EFDE43E1F98C92D00810993 /* 报销.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "报销.psd"; sourceTree = "<group>"; };
-		3EFDE43F1F98C92D00810993 /* 物品领用.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "物品领用.jpg"; sourceTree = "<group>"; };
-		3EFDE4401F98C92D00810993 /* 物品领用.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "物品领用.psd"; sourceTree = "<group>"; };
-		3EFDE4411F98C92D00810993 /* 请假--.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "请假--.jpg"; sourceTree = "<group>"; };
-		3EFDE4421F98C92D00810993 /* 请假-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "请假-.jpg"; sourceTree = "<group>"; };
-		3EFDE4431F98C92D00810993 /* 请假.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "请假.jpg"; sourceTree = "<group>"; };
-		3EFDE4441F98C92D00810993 /* 请假.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "请假.psd"; sourceTree = "<group>"; };
-		3EFDE4451F98C92D00810993 /* 选择审批人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择审批人.jpg"; sourceTree = "<group>"; };
-		3EFDE4461F98C92D00810993 /* 选择审批人.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "选择审批人.psd"; sourceTree = "<group>"; };
-		3EFDE4471F98C92D00810993 /* 选择抄送范围.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择抄送范围.jpg"; sourceTree = "<group>"; };
-		3EFDE4481F98C92D00810993 /* 选择抄送范围.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "选择抄送范围.psd"; sourceTree = "<group>"; };
-		3EFDE4491F98C92D00810993 /* 通用审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通用审批.jpg"; sourceTree = "<group>"; };
-		3EFDE44A1F98C92D00810993 /* 通用审批.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "通用审批.psd"; sourceTree = "<group>"; };
-		3EFDE44B1F98C92D00810993 /* 审批-默认头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-默认头像.png"; path = "../../../切图/工作/审批-默认头像.png"; sourceTree = "<group>"; };
-		3EFDE44C1F98C92D00810993 /* 知识库.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "知识库.jpg"; path = "../../../切图/工作/知识库.jpg"; sourceTree = "<group>"; };
-		3EFDE44D1F98C92D00810993 /* 发日志-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-7.png"; path = "../../../切图/工作/发日志-7.png"; sourceTree = "<group>"; };
-		3EFDE44E1F98C92D00810993 /* 我执行的任务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我执行的任务.png"; path = "../../../切图/工作/我执行的任务.png"; sourceTree = "<group>"; };
-		3EFDE44F1F98C92D00810993 /* 审批-请假.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-请假.png"; path = "../../../切图/工作/审批-请假.png"; sourceTree = "<group>"; };
-		3EFDE4501F98C92D00810993 /* 统计.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "统计.png"; path = "../../../切图/工作/统计.png"; sourceTree = "<group>"; };
-		3EFDE4511F98C92D00810993 /* 取消审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "取消审批.png"; path = "../../../切图/工作/取消审批.png"; sourceTree = "<group>"; };
-		3EFDE4531F98C92D00810993 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		3EFDE4541F98C92D00810993 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		3EFDE4551F98C92D00810993 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		3EFDE4561F98C92D00810993 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		3EFDE4571F98C92D00810993 /* 审批-报销.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-报销.png"; path = "../../../切图/工作/审批-报销.png"; sourceTree = "<group>"; };
-		3EFDE4581F98C92D00810993 /* 发审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批.png"; path = "../../../切图/工作/发审批.png"; sourceTree = "<group>"; };
-		3EFDE4591F98C92E00810993 /* 考勤-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-4.png"; path = "../../../切图/工作/考勤-4.png"; sourceTree = "<group>"; };
-		3EFDE45A1F98C92E00810993 /* 提醒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "提醒.png"; path = "../../../切图/工作/提醒.png"; sourceTree = "<group>"; };
-		3EFDE45B1F98C92E00810993 /* 发任务-执行人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-执行人.png"; path = "../../../切图/工作/发任务-执行人.png"; sourceTree = "<group>"; };
-		3EFDE45C1F98C92E00810993 /* 点评-星星-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星星-1.png"; path = "../../../切图/工作/点评-星星-1.png"; sourceTree = "<group>"; };
-		3EFDE45D1F98C92E00810993 /* 发日志-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-5.png"; path = "../../../切图/工作/发日志-5.png"; sourceTree = "<group>"; };
-		3EFDE45E1F98C92E00810993 /* 添加审批人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "添加审批人.png"; path = "../../../切图/工作/添加审批人.png"; sourceTree = "<group>"; };
-		3EFDE45F1F98C92E00810993 /* 头部-白条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "头部-白条.png"; path = "../../../切图/工作/头部-白条.png"; sourceTree = "<group>"; };
-		3EFDE4601F98C92E00810993 /* 通讯录.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "通讯录.jpg"; path = "../../../切图/工作/通讯录.jpg"; sourceTree = "<group>"; };
-		3EFDE4621F98C92E00810993 /* 全部日志---.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志---.jpg"; sourceTree = "<group>"; };
-		3EFDE4631F98C92E00810993 /* 全部日志--.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志--.jpg"; sourceTree = "<group>"; };
-		3EFDE4641F98C92E00810993 /* 全部日志-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-.jpg"; sourceTree = "<group>"; };
-		3EFDE4651F98C92E00810993 /* 全部日志-回复.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-回复.jpg"; sourceTree = "<group>"; };
-		3EFDE4661F98C92E00810993 /* 全部日志-回复.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-回复.psd"; sourceTree = "<group>"; };
-		3EFDE4671F98C92E00810993 /* 全部日志-查看文档.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-查看文档.jpg"; sourceTree = "<group>"; };
-		3EFDE4681F98C92E00810993 /* 全部日志-查看文档.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-查看文档.psd"; sourceTree = "<group>"; };
-		3EFDE4691F98C92E00810993 /* 全部日志-点评--.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-点评--.jpg"; sourceTree = "<group>"; };
-		3EFDE46A1F98C92E00810993 /* 全部日志-点评-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-点评-.jpg"; sourceTree = "<group>"; };
-		3EFDE46B1F98C92E00810993 /* 全部日志-点评-赞过回复的人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-点评-赞过回复的人.jpg"; sourceTree = "<group>"; };
-		3EFDE46C1F98C92E00810993 /* 全部日志-点评-赞过回复的人.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-点评-赞过回复的人.psd"; sourceTree = "<group>"; };
-		3EFDE46D1F98C92E00810993 /* 全部日志-点评.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-点评.jpg"; sourceTree = "<group>"; };
-		3EFDE46E1F98C92E00810993 /* 全部日志-点评.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-点评.psd"; sourceTree = "<group>"; };
-		3EFDE46F1F98C92E00810993 /* 全部日志-筛选.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-筛选.jpg"; sourceTree = "<group>"; };
-		3EFDE4701F98C92E00810993 /* 全部日志-筛选.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-筛选.psd"; sourceTree = "<group>"; };
-		3EFDE4711F98C92E00810993 /* 全部日志-详情-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-详情-.jpg"; sourceTree = "<group>"; };
-		3EFDE4721F98C92E00810993 /* 全部日志-详情-赞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-详情-赞.jpg"; sourceTree = "<group>"; };
-		3EFDE4731F98C92F00810993 /* 全部日志-详情-赞.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-详情-赞.psd"; sourceTree = "<group>"; };
-		3EFDE4741F98C92F00810993 /* 全部日志-详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志-详情.jpg"; sourceTree = "<group>"; };
-		3EFDE4751F98C92F00810993 /* 全部日志-详情.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志-详情.psd"; sourceTree = "<group>"; };
-		3EFDE4761F98C92F00810993 /* 全部日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "全部日志.jpg"; sourceTree = "<group>"; };
-		3EFDE4771F98C92F00810993 /* 全部日志.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "全部日志.psd"; sourceTree = "<group>"; };
-		3EFDE4781F98C92F00810993 /* 发日志-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发日志-.jpg"; sourceTree = "<group>"; };
-		3EFDE4791F98C92F00810993 /* 发日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发日志.jpg"; sourceTree = "<group>"; };
-		3EFDE47A1F98C92F00810993 /* 发日志.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "发日志.psd"; sourceTree = "<group>"; };
-		3EFDE47B1F98C92F00810993 /* 我发出的日志-已点评.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的日志-已点评.jpg"; sourceTree = "<group>"; };
-		3EFDE47C1F98C92F00810993 /* 我发出的日志-已点评.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我发出的日志-已点评.psd"; sourceTree = "<group>"; };
-		3EFDE47D1F98C92F00810993 /* 我发出的日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的日志.jpg"; sourceTree = "<group>"; };
-		3EFDE47E1F98C92F00810993 /* 我发出的日志.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我发出的日志.psd"; sourceTree = "<group>"; };
-		3EFDE47F1F98C92F00810993 /* 我收到的日志-已点评.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我收到的日志-已点评.jpg"; sourceTree = "<group>"; };
-		3EFDE4801F98C92F00810993 /* 我收到的日志-已点评.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我收到的日志-已点评.psd"; sourceTree = "<group>"; };
-		3EFDE4811F98C92F00810993 /* 我收到的日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我收到的日志.jpg"; sourceTree = "<group>"; };
-		3EFDE4821F98C92F00810993 /* 我收到的日志.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "我收到的日志.psd"; sourceTree = "<group>"; };
-		3EFDE4831F98C92F00810993 /* 日志-搜索-高级.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "日志-搜索-高级.jpg"; sourceTree = "<group>"; };
-		3EFDE4841F98C92F00810993 /* 日志-搜索-高级.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "日志-搜索-高级.psd"; sourceTree = "<group>"; };
-		3EFDE4851F98C92F00810993 /* 日志-搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "日志-搜索.jpg"; sourceTree = "<group>"; };
-		3EFDE4861F98C92F00810993 /* 日志-搜索.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "日志-搜索.psd"; sourceTree = "<group>"; };
-		3EFDE4871F98C92F00810993 /* 日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "日志.jpg"; sourceTree = "<group>"; };
-		3EFDE4881F98C92F00810993 /* 日志.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "日志.psd"; sourceTree = "<group>"; };
-		3EFDE4891F98C92F00810993 /* 选择抄送范围.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择抄送范围.jpg"; sourceTree = "<group>"; };
-		3EFDE48A1F98C92F00810993 /* 选择抄送范围.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "选择抄送范围.psd"; sourceTree = "<group>"; };
-		3EFDE48B1F98C92F00810993 /* 选择点评人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择点评人.jpg"; sourceTree = "<group>"; };
-		3EFDE48C1F98C92F00810993 /* 选择点评人.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "选择点评人.psd"; sourceTree = "<group>"; };
-		3EFDE48D1F98C92F00810993 /* 选择照片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择照片.jpg"; sourceTree = "<group>"; };
-		3EFDE48E1F98C92F00810993 /* 选择照片.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "选择照片.psd"; sourceTree = "<group>"; };
-		3EFDE4901F98C92F00810993 /* 搜索-无结果.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "搜索-无结果.jpg"; sourceTree = "<group>"; };
-		3EFDE4911F98C92F00810993 /* 无数据.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "无数据.jpg"; sourceTree = "<group>"; };
-		3EFDE4921F98C92F00810993 /* 点评-星星-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星星-3.png"; path = "../../../切图/工作/点评-星星-3.png"; sourceTree = "<group>"; };
-		3EFDE4931F98C92F00810993 /* 请假.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "请假.png"; path = "../../../切图/工作/请假.png"; sourceTree = "<group>"; };
-		3EFDE4941F98C92F00810993 /* 点评-星星-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星星-2.png"; path = "../../../切图/工作/点评-星星-2.png"; sourceTree = "<group>"; };
-		3EFDE4951F98C92F00810993 /* 审批-取消关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-取消关闭.png"; path = "../../../切图/工作/审批-取消关闭.png"; sourceTree = "<group>"; };
-		3EFDE4961F98C92F00810993 /* 添加-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "添加-1.png"; path = "../../../切图/工作/添加-1.png"; sourceTree = "<group>"; };
-		3EFDE4971F98C93000810993 /* 语音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "语音.png"; path = "../../../切图/工作/语音.png"; sourceTree = "<group>"; };
-		3EFDE4981F98C93000810993 /* 节点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "节点.png"; path = "../../../切图/工作/节点.png"; sourceTree = "<group>"; };
-		3EFDE49A1F98C93000810993 /* kq0007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq0007@2x.png"; sourceTree = "<group>"; };
-		3EFDE49B1F98C93000810993 /* kq0008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq0008@2x.png"; sourceTree = "<group>"; };
-		3EFDE49C1F98C93000810993 /* kq001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq001@2x.png"; sourceTree = "<group>"; };
-		3EFDE49D1F98C93000810993 /* kq002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq002@2x.png"; sourceTree = "<group>"; };
-		3EFDE49E1F98C93000810993 /* kq003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq003@2x.png"; sourceTree = "<group>"; };
-		3EFDE49F1F98C93000810993 /* kq004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq004@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A01F98C93000810993 /* kq005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq005@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A11F98C93000810993 /* kq006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq006@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A21F98C93000810993 /* kq010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq010@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A31F98C93000810993 /* kq011@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq011@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A41F98C93000810993 /* kq012@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq012@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A51F98C93000810993 /* kq013@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq013@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A61F98C93000810993 /* kq014@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq014@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A71F98C93000810993 /* kq015@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq015@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A81F98C93000810993 /* kq016@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq016@2x.png"; sourceTree = "<group>"; };
-		3EFDE4A91F98C93000810993 /* kq017@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq017@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AA1F98C93000810993 /* kq018@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq018@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AB1F98C93000810993 /* kq019@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq019@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AC1F98C93000810993 /* kq020@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq020@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AD1F98C93000810993 /* kq021@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq021@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AE1F98C93000810993 /* kq022@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq022@2x.png"; sourceTree = "<group>"; };
-		3EFDE4AF1F98C93000810993 /* kq023@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq023@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B01F98C93000810993 /* kq024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq024@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B11F98C93000810993 /* kq025@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq025@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B21F98C93000810993 /* kq026@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq026@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B31F98C93000810993 /* kq027@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq027@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B41F98C93000810993 /* kq028@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq028@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B51F98C93000810993 /* kq029@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq029@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B61F98C93000810993 /* kq030@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq030@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B71F98C93000810993 /* kq031@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq031@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B81F98C93000810993 /* kq032@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kq032@2x.png"; sourceTree = "<group>"; };
-		3EFDE4B91F98C93000810993 /* 关注-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "关注-1.png"; path = "../../../切图/工作/关注-1.png"; sourceTree = "<group>"; };
-		3EFDE4BA1F98C93000810993 /* 考勤-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-3.png"; path = "../../../切图/工作/考勤-3.png"; sourceTree = "<group>"; };
-		3EFDE4BB1F98C93000810993 /* 审批-同意.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-同意.png"; path = "../../../切图/工作/审批-同意.png"; sourceTree = "<group>"; };
-		3EFDE4BC1F98C93100810993 /* 公告管理.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "公告管理.png"; path = "../../../切图/工作/公告管理.png"; sourceTree = "<group>"; };
-		3EFDE4BD1F98C93100810993 /* 点评-星星-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星星-4.png"; path = "../../../切图/工作/点评-星星-4.png"; sourceTree = "<group>"; };
-		3EFDE4BE1F98C93100810993 /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "更多.png"; path = "../../../切图/工作/更多.png"; sourceTree = "<group>"; };
-		3EFDE4BF1F98C93100810993 /* 点评.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评.png"; path = "../../../切图/工作/点评.png"; sourceTree = "<group>"; };
-		3EFDE4C01F98C93100810993 /* 审批.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "审批.jpg"; path = "../../../切图/工作/审批.jpg"; sourceTree = "<group>"; };
-		3EFDE4C11F98C93100810993 /* 审批-外出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-外出.png"; path = "../../../切图/工作/审批-外出.png"; sourceTree = "<group>"; };
-		3EFDE4C21F98C93200810993 /* 点赞-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点赞-1.png"; path = "../../../切图/工作/点赞-1.png"; sourceTree = "<group>"; };
-		3EFDE4C31F98C93200810993 /* CRM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CRM.jpg; path = "../../../切图/工作/CRM.jpg"; sourceTree = "<group>"; };
-		3EFDE4C41F98C93200810993 /* single-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "single-6.png"; path = "../../../切图/工作/single-6.png"; sourceTree = "<group>"; };
-		3EFDE4C51F98C93200810993 /* 拒绝任务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "拒绝任务.png"; path = "../../../切图/工作/拒绝任务.png"; sourceTree = "<group>"; };
-		3EFDE4C61F98C93200810993 /* 录音关闭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "录音关闭.png"; path = "../../../切图/工作/录音关闭.png"; sourceTree = "<group>"; };
-		3EFDE4C71F98C93200810993 /* 联系人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "联系人.png"; path = "../../../切图/工作/联系人.png"; sourceTree = "<group>"; };
-		3EFDE4C81F98C93200810993 /* 考勤-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-2.png"; path = "../../../切图/工作/考勤-2.png"; sourceTree = "<group>"; };
-		3EFDE4C91F98C93300810993 /* 任务详情-执行人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "任务详情-执行人.png"; path = "../../../切图/工作/任务详情-执行人.png"; sourceTree = "<group>"; };
-		3EFDE4CA1F98C93300810993 /* 关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "关注.png"; path = "../../../切图/工作/关注.png"; sourceTree = "<group>"; };
-		3EFDE4CB1F98C93400810993 /* 详情-转交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "详情-转交.png"; path = "../../../切图/工作/详情-转交.png"; sourceTree = "<group>"; };
-		3EFDE4CC1F98C93500810993 /* 点赞为空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点赞为空.png"; path = "../../../切图/工作/点赞为空.png"; sourceTree = "<group>"; };
-		3EFDE4CD1F98C93500810993 /* 没有数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "没有数据.png"; path = "../../../切图/工作/没有数据.png"; sourceTree = "<group>"; };
-		3EFDE4CE1F98C93500810993 /* 发审批-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-2.png"; path = "../../../切图/工作/发审批-2.png"; sourceTree = "<group>"; };
-		3EFDE4CF1F98C93500810993 /* 发审批-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-1.png"; path = "../../../切图/工作/发审批-1.png"; sourceTree = "<group>"; };
-		3EFDE4D01F98C93600810993 /* 日志详情-删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "日志详情-删除.png"; path = "../../../切图/工作/日志详情-删除.png"; sourceTree = "<group>"; };
-		3EFDE4D11F98C93600810993 /* 删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "删除.png"; path = "../../../切图/工作/删除.png"; sourceTree = "<group>"; };
-		3EFDE4D21F98C93600810993 /* 发任务-执行人26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-执行人26.png"; path = "../../../切图/工作/发任务-执行人26.png"; sourceTree = "<group>"; };
-		3EFDE4D31F98C93600810993 /* 录音.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "录音.png"; path = "../../../切图/工作/录音.png"; sourceTree = "<group>"; };
-		3EFDE4D41F98C93600810993 /* 重做.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "重做.png"; path = "../../../切图/工作/重做.png"; sourceTree = "<group>"; };
-		3EFDE4D51F98C93700810993 /* 发布日志-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发布日志-1.png"; path = "../../../切图/工作/发布日志-1.png"; sourceTree = "<group>"; };
-		3EFDE4D61F98C93700810993 /* 筛选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "筛选.png"; path = "../../../切图/工作/筛选.png"; sourceTree = "<group>"; };
-		3EFDE4D71F98C93700810993 /* 日志已点评星星-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "日志已点评星星-1.png"; path = "../../../切图/工作/日志已点评星星-1.png"; sourceTree = "<group>"; };
-		3EFDE4D81F98C93700810993 /* 统计-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "统计-2.png"; path = "../../../切图/工作/统计-2.png"; sourceTree = "<group>"; };
-		3EFDE4D91F98C93700810993 /* 审批-待批复-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-待批复-1.png"; path = "../../../切图/工作/审批-待批复-1.png"; sourceTree = "<group>"; };
-		3EFDE4DA1F98C93700810993 /* 已点评.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "已点评.png"; path = "../../../切图/工作/已点评.png"; sourceTree = "<group>"; };
-		3EFDE4DB1F98C93700810993 /* 审批-增加明细.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-增加明细.png"; path = "../../../切图/工作/审批-增加明细.png"; sourceTree = "<group>"; };
-		3EFDE4DC1F98C93800810993 /* 添加.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "添加.png"; path = "../../../切图/工作/添加.png"; sourceTree = "<group>"; };
-		3EFDE4DD1F98C93800810993 /* 筛选-选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "筛选-选中.png"; path = "../../../切图/工作/筛选-选中.png"; sourceTree = "<group>"; };
-		3EFDE4DE1F98C93800810993 /* 收藏-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "收藏-1.png"; path = "../../../切图/工作/收藏-1.png"; sourceTree = "<group>"; };
-		3EFDE4DF1F98C93800810993 /* 通用审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "通用审批.png"; path = "../../../切图/工作/通用审批.png"; sourceTree = "<group>"; };
-		3EFDE4E01F98C93800810993 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "返回.png"; path = "../../../切图/工作/返回.png"; sourceTree = "<group>"; };
-		3EFDE4E11F98C93800810993 /* 报销.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "报销.png"; path = "../../../切图/工作/报销.png"; sourceTree = "<group>"; };
-		3EFDE4E21F98C93800810993 /* 发任务-截止时间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-截止时间.png"; path = "../../../切图/工作/发任务-截止时间.png"; sourceTree = "<group>"; };
-		3EFDE4E31F98C93900810993 /* 任务-变更执行人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "任务-变更执行人.png"; path = "../../../切图/工作/任务-变更执行人.png"; sourceTree = "<group>"; };
-		3EFDE4E41F98C93900810993 /* 日志默认头像72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "日志默认头像72.png"; path = "../../../切图/工作/日志默认头像72.png"; sourceTree = "<group>"; };
-		3EFDE4E51F98C93900810993 /* 外出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "外出.png"; path = "../../../切图/工作/外出.png"; sourceTree = "<group>"; };
-		3EFDE4E61F98C93900810993 /* 广告.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "广告.jpg"; path = "../../../切图/工作/广告.jpg"; sourceTree = "<group>"; };
-		3EFDE4E71F98C93A00810993 /* 发任务-勾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-勾.png"; path = "../../../切图/工作/发任务-勾.png"; sourceTree = "<group>"; };
-		3EFDE4E81F98C93A00810993 /* 任务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "任务.jpg"; path = "../../../切图/工作/任务.jpg"; sourceTree = "<group>"; };
-		3EFDE4E91F98C93A00810993 /* 考勤-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-5.png"; path = "../../../切图/工作/考勤-5.png"; sourceTree = "<group>"; };
-		3EFDE4EA1F98C93A00810993 /* 审批-批复.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-批复.png"; path = "../../../切图/工作/审批-批复.png"; sourceTree = "<group>"; };
-		3EFDE4EB1F98C93A00810993 /* 原图选择-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "原图选择-1.png"; path = "../../../切图/工作/原图选择-1.png"; sourceTree = "<group>"; };
-		3EFDE4EC1F98C93A00810993 /* 重新提交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "重新提交.png"; path = "../../../切图/工作/重新提交.png"; sourceTree = "<group>"; };
-		3EFDE4ED1F98C93A00810993 /* 考勤-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-6.png"; path = "../../../切图/工作/考勤-6.png"; sourceTree = "<group>"; };
-		3EFDE4EE1F98C93B00810993 /* 发布日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发布日志.png"; path = "../../../切图/工作/发布日志.png"; sourceTree = "<group>"; };
-		3EFDE4EF1F98C93B00810993 /* 发日志-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-2.png"; path = "../../../切图/工作/发日志-2.png"; sourceTree = "<group>"; };
-		3EFDE4F01F98C93B00810993 /* 回执-反白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "回执-反白.png"; path = "../../../切图/工作/回执-反白.png"; sourceTree = "<group>"; };
-		3EFDE4F11F98C93B00810993 /* 继续执行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "继续执行.png"; path = "../../../切图/工作/继续执行.png"; sourceTree = "<group>"; };
-		3EFDE4F21F98C93B00810993 /* 搜索 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "搜索 (2).png"; path = "../../../切图/工作/搜索 (2).png"; sourceTree = "<group>"; };
-		3EFDE4F31F98C93B00810993 /* 语音-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "语音-1.png"; path = "../../../切图/工作/语音-1.png"; sourceTree = "<group>"; };
-		3EFDE4F41F98C93B00810993 /* 发审批-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-5.png"; path = "../../../切图/工作/发审批-5.png"; sourceTree = "<group>"; };
-		3EFDE4F51F98C93C00810993 /* 赞过回复的人60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "赞过回复的人60.png"; path = "../../../切图/工作/赞过回复的人60.png"; sourceTree = "<group>"; };
-		3EFDE4F61F98C93C00810993 /* 审批-通用审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-通用审批.png"; path = "../../../切图/工作/审批-通用审批.png"; sourceTree = "<group>"; };
-		3EFDE4F71F98C93C00810993 /* RAR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RAR.png; path = "../../../切图/工作/RAR.png"; sourceTree = "<group>"; };
-		3EFDE4F81F98C93C00810993 /* 考勤-选择日期.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-选择日期.png"; path = "../../../切图/工作/考勤-选择日期.png"; sourceTree = "<group>"; };
-		3EFDE4F91F98C93C00810993 /* 审批-取消审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-取消审批.png"; path = "../../../切图/工作/审批-取消审批.png"; sourceTree = "<group>"; };
-		3EFDE4FA1F98C93C00810993 /* 附件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "附件.png"; path = "../../../切图/工作/附件.png"; sourceTree = "<group>"; };
-		3EFDE4FB1F98C93D00810993 /* 点评-星星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星星.png"; path = "../../../切图/工作/点评-星星.png"; sourceTree = "<group>"; };
-		3EFDE4FD1F98C93D00810993 /* 任务-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "任务-.jpg"; sourceTree = "<group>"; };
-		3EFDE4FE1F98C93D00810993 /* 任务-搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "任务-搜索.jpg"; sourceTree = "<group>"; };
-		3EFDE4FF1F98C93D00810993 /* 任务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "任务.jpg"; sourceTree = "<group>"; };
-		3EFDE5001F98C93D00810993 /* 发任务-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务-.jpg"; sourceTree = "<group>"; };
-		3EFDE5011F98C93D00810993 /* 发任务-1-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务-1-.jpg"; sourceTree = "<group>"; };
-		3EFDE5021F98C93D00810993 /* 发任务-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务-1.jpg"; sourceTree = "<group>"; };
-		3EFDE5031F98C93D00810993 /* 发任务-具体时间-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务-具体时间-1.jpg"; sourceTree = "<group>"; };
-		3EFDE5041F98C93D00810993 /* 发任务-提醒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务-提醒.jpg"; sourceTree = "<group>"; };
-		3EFDE5051F98C93D00810993 /* 发任务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发任务.jpg"; sourceTree = "<group>"; };
-		3EFDE5061F98C93D00810993 /* 我发出的任务-已取消.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的任务-已取消.jpg"; sourceTree = "<group>"; };
-		3EFDE5071F98C93D00810993 /* 我发出的任务-详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的任务-详情.jpg"; sourceTree = "<group>"; };
-		3EFDE5081F98C93D00810993 /* 我发出的任务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我发出的任务.jpg"; sourceTree = "<group>"; };
-		3EFDE5091F98C93D00810993 /* 我执行的任务-详情-提醒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我执行的任务-详情-提醒.jpg"; sourceTree = "<group>"; };
-		3EFDE50A1F98C93D00810993 /* 我执行的任务-详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我执行的任务-详情.jpg"; sourceTree = "<group>"; };
-		3EFDE50B1F98C93D00810993 /* 我执行的任务.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "我执行的任务.jpg"; sourceTree = "<group>"; };
-		3EFDE50C1F98C93D00810993 /* 执行人-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "执行人-1.jpg"; sourceTree = "<group>"; };
-		3EFDE50D1F98C93D00810993 /* 执行人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "执行人.jpg"; sourceTree = "<group>"; };
-		3EFDE50E1F98C93D00810993 /* 继续执行.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "继续执行.jpg"; sourceTree = "<group>"; };
-		3EFDE50F1F98C93D00810993 /* 选择执行人.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择执行人.jpg"; sourceTree = "<group>"; };
-		3EFDE5101F98C93D00810993 /* 审批-待批复.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-待批复.png"; path = "../../../切图/工作/审批-待批复.png"; sourceTree = "<group>"; };
-		3EFDE5111F98C93D00810993 /* 我收到的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我收到的.png"; path = "../../../切图/工作/我收到的.png"; sourceTree = "<group>"; };
-		3EFDE5121F98C93D00810993 /* 回复为空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "回复为空.png"; path = "../../../切图/工作/回复为空.png"; sourceTree = "<group>"; };
-		3EFDE5131F98C93D00810993 /* TXT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TXT.png; path = "../../../切图/工作/TXT.png"; sourceTree = "<group>"; };
-		3EFDE5141F98C93D00810993 /* 日志.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "日志.jpg"; path = "../../../切图/工作/日志.jpg"; sourceTree = "<group>"; };
-		3EFDE5151F98C93E00810993 /* 原图选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "原图选择.png"; path = "../../../切图/工作/原图选择.png"; sourceTree = "<group>"; };
-		3EFDE5161F98C93E00810993 /* 我发出的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我发出的.png"; path = "../../../切图/工作/我发出的.png"; sourceTree = "<group>"; };
-		3EFDE5171F98C93E00810993 /* 发日志-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-8.png"; path = "../../../切图/工作/发日志-8.png"; sourceTree = "<group>"; };
-		3EFDE5181F98C93E00810993 /* 日志已点评星星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "日志已点评星星.png"; path = "../../../切图/工作/日志已点评星星.png"; sourceTree = "<group>"; };
-		3EFDE5191F98C93E00810993 /* 发日志-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-3.png"; path = "../../../切图/工作/发日志-3.png"; sourceTree = "<group>"; };
-		3EFDE51A1F98C93E00810993 /* 换审批人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "换审批人.png"; path = "../../../切图/工作/换审批人.png"; sourceTree = "<group>"; };
-		3EFDE51B1F98C93E00810993 /* 考勤-选择日期-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-选择日期-1.png"; path = "../../../切图/工作/考勤-选择日期-1.png"; sourceTree = "<group>"; };
-		3EFDE51C1F98C93F00810993 /* 所有审批.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "所有审批.png"; path = "../../../切图/工作/所有审批.png"; sourceTree = "<group>"; };
-		3EFDE51D1F98C93F00810993 /* 分享50-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "分享50-50.png"; path = "../../../切图/工作/分享50-50.png"; sourceTree = "<group>"; };
-		3EFDE51E1F98C93F00810993 /* 物品领用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "物品领用.png"; path = "../../../切图/工作/物品领用.png"; sourceTree = "<group>"; };
-		3EFDE51F1F98C93F00810993 /* 工作.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "工作.jpg"; path = "../../../切图/工作/工作.jpg"; sourceTree = "<group>"; };
-		3EFDE5201F98C93F00810993 /* 选择照片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "选择照片.png"; path = "../../../切图/工作/选择照片.png"; sourceTree = "<group>"; };
-		3EFDE5211F98C93F00810993 /* 发日志-4-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-4-32.png"; path = "../../../切图/工作/发日志-4-32.png"; sourceTree = "<group>"; };
-		3EFDE5221F98C93F00810993 /* 加班.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "加班.png"; path = "../../../切图/工作/加班.png"; sourceTree = "<group>"; };
-		3EFDE5231F98C94000810993 /* 搜索为空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "搜索为空.png"; path = "../../../切图/工作/搜索为空.png"; sourceTree = "<group>"; };
-		3EFDE5241F98C94000810993 /* 发任务-提醒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-提醒.png"; path = "../../../切图/工作/发任务-提醒.png"; sourceTree = "<group>"; };
-		3EFDE5251F98C94000810993 /* 考勤-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤-1.png"; path = "../../../切图/工作/考勤-1.png"; sourceTree = "<group>"; };
-		3EFDE5261F98C94000810993 /* 指纹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "指纹.png"; path = "../../../切图/工作/指纹.png"; sourceTree = "<group>"; };
-		3EFDE5271F98C94000810993 /* 取消任务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "取消任务.png"; path = "../../../切图/工作/取消任务.png"; sourceTree = "<group>"; };
-		3EFDE5281F98C94000810993 /* 我发出的任务.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我发出的任务.png"; path = "../../../切图/工作/我发出的任务.png"; sourceTree = "<group>"; };
-		3EFDE5291F98C94000810993 /* Excel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Excel.png; path = "../../../切图/工作/Excel.png"; sourceTree = "<group>"; };
-		3EFDE52A1F98C94000810993 /* 发审批-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-4.png"; path = "../../../切图/工作/发审批-4.png"; sourceTree = "<group>"; };
-		3EFDE52B1F98C94100810993 /* 期待更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "期待更多.png"; path = "../../../切图/工作/期待更多.png"; sourceTree = "<group>"; };
-		3EFDE52C1F98C94100810993 /* 发任务-重要.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-重要.png"; path = "../../../切图/工作/发任务-重要.png"; sourceTree = "<group>"; };
-		3EFDE52D1F98C94100810993 /* 客户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "客户.png"; path = "../../../切图/工作/客户.png"; sourceTree = "<group>"; };
-		3EFDE52E1F98C94100810993 /* 提醒-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "提醒-1.png"; path = "../../../切图/工作/提醒-1.png"; sourceTree = "<group>"; };
-		3EFDE52F1F98C94100810993 /* WORLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WORLD.png; path = "../../../切图/工作/WORLD.png"; sourceTree = "<group>"; };
-		3EFDE5301F98C94100810993 /* 点赞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点赞.png"; path = "../../../切图/工作/点赞.png"; sourceTree = "<group>"; };
-		3EFDE5311F98C94200810993 /* 出差.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "出差.png"; path = "../../../切图/工作/出差.png"; sourceTree = "<group>"; };
-		3EFDE5321F98C94200810993 /* 点评-星.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星.png"; path = "../../../切图/工作/点评-星.png"; sourceTree = "<group>"; };
-		3EFDE5331F98C94200810993 /* 审批-加班.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-加班.png"; path = "../../../切图/工作/审批-加班.png"; sourceTree = "<group>"; };
-		3EFDE5341F98C94200810993 /* 审批-出差.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-出差.png"; path = "../../../切图/工作/审批-出差.png"; sourceTree = "<group>"; };
-		3EFDE5351F98C94200810993 /* 发日志-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-1.png"; path = "../../../切图/工作/发日志-1.png"; sourceTree = "<group>"; };
-		3EFDE5361F98C94200810993 /* 发任务-截止时间26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发任务-截止时间26.png"; path = "../../../切图/工作/发任务-截止时间26.png"; sourceTree = "<group>"; };
-		3EFDE5371F98C94300810993 /* 收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "收藏.png"; path = "../../../切图/工作/收藏.png"; sourceTree = "<group>"; };
-		3EFDE5381F98C94300810993 /* 开始时间-下拉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "开始时间-下拉.png"; path = "../../../切图/工作/开始时间-下拉.png"; sourceTree = "<group>"; };
-		3EFDE5391F98C94300810993 /* 考勤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "考勤.png"; path = "../../../切图/工作/考勤.png"; sourceTree = "<group>"; };
-		3EFDE53A1F98C94300810993 /* 写周报.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "写周报.png"; path = "../../../切图/工作/写周报.png"; sourceTree = "<group>"; };
-		3EFDE53C1F98C94300810993 /* 分享-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享-.jpg"; sourceTree = "<group>"; };
-		3EFDE53D1F98C94300810993 /* 分享-回复.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享-回复.jpg"; sourceTree = "<group>"; };
-		3EFDE53E1F98C94300810993 /* 分享-搜索-无结果.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享-搜索-无结果.jpg"; sourceTree = "<group>"; };
-		3EFDE53F1F98C94300810993 /* 分享-搜索-高级.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享-搜索-高级.jpg"; sourceTree = "<group>"; };
-		3EFDE5401F98C94300810993 /* 分享-搜索.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享-搜索.jpg"; sourceTree = "<group>"; };
-		3EFDE5411F98C94300810993 /* 分享.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享.jpg"; sourceTree = "<group>"; };
-		3EFDE5421F98C94300810993 /* 分享详情--.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享详情--.jpg"; sourceTree = "<group>"; };
-		3EFDE5431F98C94300810993 /* 分享详情-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享详情-.jpg"; sourceTree = "<group>"; };
-		3EFDE5441F98C94300810993 /* 分享详情.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "分享详情.jpg"; sourceTree = "<group>"; };
-		3EFDE5451F98C94300810993 /* 发分享-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发分享-.jpg"; sourceTree = "<group>"; };
-		3EFDE5461F98C94300810993 /* 发分享.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "发分享.jpg"; sourceTree = "<group>"; };
-		3EFDE5471F98C94300810993 /* 语音--.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "语音--.jpg"; sourceTree = "<group>"; };
-		3EFDE5481F98C94300810993 /* 语音-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "语音-.jpg"; sourceTree = "<group>"; };
-		3EFDE5491F98C94300810993 /* 语音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "语音.jpg"; sourceTree = "<group>"; };
-		3EFDE54A1F98C94300810993 /* 选择抄送范围.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择抄送范围.jpg"; sourceTree = "<group>"; };
-		3EFDE54B1F98C94300810993 /* 统计-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "统计-1.png"; path = "../../../切图/工作/统计-1.png"; sourceTree = "<group>"; };
-		3EFDE54C1F98C94400810993 /* 关闭-蓝色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "关闭-蓝色.png"; path = "../../../切图/工作/关闭-蓝色.png"; sourceTree = "<group>"; };
-		3EFDE54D1F98C94400810993 /* 转交.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "转交.png"; path = "../../../切图/工作/转交.png"; sourceTree = "<group>"; };
-		3EFDE54E1F98C94400810993 /* 向右-深色.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "向右-深色.png"; path = "../../../切图/工作/向右-深色.png"; sourceTree = "<group>"; };
-		3EFDE54F1F98C94400810993 /* 修改截止时间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "修改截止时间.png"; path = "../../../切图/工作/修改截止时间.png"; sourceTree = "<group>"; };
-		3EFDE5501F98C94400810993 /* 审批-物品领用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-物品领用.png"; path = "../../../切图/工作/审批-物品领用.png"; sourceTree = "<group>"; };
-		3EFDE5511F98C94400810993 /* 写月报.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "写月报.png"; path = "../../../切图/工作/写月报.png"; sourceTree = "<group>"; };
-		3EFDE5521F98C94400810993 /* 发日志-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发日志-6.png"; path = "../../../切图/工作/发日志-6.png"; sourceTree = "<group>"; };
-		3EFDE5531F98C94400810993 /* 我发出的日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我发出的日志.png"; path = "../../../切图/工作/我发出的日志.png"; sourceTree = "<group>"; };
-		3EFDE5541F98C94500810993 /* 任务-重要28-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "任务-重要28-28.png"; path = "../../../切图/工作/任务-重要28-28.png"; sourceTree = "<group>"; };
-		3EFDE5551F98C94500810993 /* 点评-星-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "点评-星-1.png"; path = "../../../切图/工作/点评-星-1.png"; sourceTree = "<group>"; };
-		3EFDE5561F98C94500810993 /* 发布日志-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发布日志-2.png"; path = "../../../切图/工作/发布日志-2.png"; sourceTree = "<group>"; };
-		3EFDE5571F98C94500810993 /* 审批-抄送范围.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-抄送范围.png"; path = "../../../切图/工作/审批-抄送范围.png"; sourceTree = "<group>"; };
-		3EFDE5581F98C94500810993 /* 我收到的日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "我收到的日志.png"; path = "../../../切图/工作/我收到的日志.png"; sourceTree = "<group>"; };
-		3EFDE5591F98C94500810993 /* 回复.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "回复.png"; path = "../../../切图/工作/回复.png"; sourceTree = "<group>"; };
-		3EFDE55A1F98C94600810993 /* 发审批-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-6.png"; path = "../../../切图/工作/发审批-6.png"; sourceTree = "<group>"; };
-		3EFDE55B1F98C94600810993 /* 写日志.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "写日志.png"; path = "../../../切图/工作/写日志.png"; sourceTree = "<group>"; };
-		3EFDE55C1F98C94600810993 /* 审批-点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "审批-点.png"; path = "../../../切图/工作/审批-点.png"; sourceTree = "<group>"; };
-		3EFDE55D1F98C94600810993 /* 发审批-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "发审批-3.png"; path = "../../../切图/工作/发审批-3.png"; sourceTree = "<group>"; };
-		3EFDE55E1F98C94600810993 /* CRM数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CRM数据.png"; path = "../../../切图/工作/CRM数据.png"; sourceTree = "<group>"; };
-		3EFDE55F1F98C95600810993 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 80.png; path = "../../../切图/icon/80.png"; sourceTree = "<group>"; };
-		3EFDE5601F98C95600810993 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120.png; path = "../../../切图/icon/120.png"; sourceTree = "<group>"; };
-		3EFDE5611F98C95700810993 /* 48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 48.png; path = "../../../切图/icon/48.png"; sourceTree = "<group>"; };
-		3EFDE5621F98C95700810993 /* 144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 144.png; path = "../../../切图/icon/144.png"; sourceTree = "<group>"; };
-		3EFDE5631F98C95700810993 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = "../../../切图/icon/180.png"; sourceTree = "<group>"; };
-		3EFDE5641F98C95700810993 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "../../../切图/icon/icon.png"; sourceTree = "<group>"; };
-		3EFDE5651F98C95700810993 /* 96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 96.png; path = "../../../切图/icon/96.png"; sourceTree = "<group>"; };
-		3EFDE5661F98C95800810993 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 87.png; path = "../../../切图/icon/87.png"; sourceTree = "<group>"; };
-		3EFDE5671F98C95800810993 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 58.png; path = "../../../切图/icon/58.png"; sourceTree = "<group>"; };
-		3EFDE5681F98C95800810993 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 72.png; path = "../../../切图/icon/72.png"; sourceTree = "<group>"; };
 		623AA3B6E079C6D2E6CCD90E /* Pods-KUAIXIAO_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_Swift/Pods-KUAIXIAO_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		70DE7A274C49B7336040A5A9 /* Pods-KUAIXIAO_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		83B1910C7B59B33A427E84C7 /* Pods_KUAIXIAO_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MainTabBarVC.swift; sourceTree = "<group>"; };
+		8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_AddressVC.swift; sourceTree = "<group>"; };
+		8FA827581FA1FA32002D59A5 /* 向右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向右.png"; sourceTree = "<group>"; };
+		8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赞过回复的人60.png"; sourceTree = "<group>"; };
+		8FA8275A1FA1FA32002D59A5 /* 750-128.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "750-128.jpg"; sourceTree = "<group>"; };
+		8FA8275B1FA1FA32002D59A5 /* 底部-我.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-我.png"; sourceTree = "<group>"; };
+		8FA8275C1FA1FA32002D59A5 /* 选择-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择-1.png"; sourceTree = "<group>"; };
+		8FA8275D1FA1FA32002D59A5 /* 底部-我-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-我-1.png"; sourceTree = "<group>"; };
+		8FA8275E1FA1FA32002D59A5 /* 750-128-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750-128-1.png"; sourceTree = "<group>"; };
+		8FA8275F1FA1FA32002D59A5 /* 个人资料-默认图像120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人资料-默认图像120.png"; sourceTree = "<group>"; };
+		8FA827601FA1FA32002D59A5 /* 筛选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "筛选.png"; sourceTree = "<group>"; };
+		8FA827611FA1FA32002D59A5 /* 筛选-选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "筛选-选中.png"; sourceTree = "<group>"; };
+		8FA827621FA1FA32002D59A5 /* 底部-消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-消息.png"; sourceTree = "<group>"; };
+		8FA827631FA1FA32002D59A5 /* 原图选择-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原图选择-1.png"; sourceTree = "<group>"; };
+		8FA827641FA1FA32002D59A5 /* 日志默认头像72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "日志默认头像72.png"; sourceTree = "<group>"; };
+		8FA827651FA1FA32002D59A5 /* 搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索.png"; sourceTree = "<group>"; };
+		8FA827661FA1FA32002D59A5 /* 修改密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改密码.png"; sourceTree = "<group>"; };
+		8FA827671FA1FA32002D59A5 /* 选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择.png"; sourceTree = "<group>"; };
+		8FA827681FA1FA32002D59A5 /* 底部-工作-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-工作-1.png"; sourceTree = "<group>"; };
+		8FA827691FA1FA32002D59A5 /* 搜索 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索 (2).png"; sourceTree = "<group>"; };
+		8FA8276A1FA1FA32002D59A5 /* 底部-应用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-应用.png"; sourceTree = "<group>"; };
+		8FA8276B1FA1FA32002D59A5 /* 圆角矩形-1.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆角矩形-1.9.png"; sourceTree = "<group>"; };
+		8FA8276C1FA1FA32002D59A5 /* 向下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向下.png"; sourceTree = "<group>"; };
+		8FA8276D1FA1FA32002D59A5 /* 原图选择.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原图选择.png"; sourceTree = "<group>"; };
+		8FA8276E1FA1FA32002D59A5 /* 向上.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "向上.jpg"; sourceTree = "<group>"; };
+		8FA8276F1FA1FA32002D59A5 /* 底部-消息-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-消息-1.png"; sourceTree = "<group>"; };
+		8FA827701FA1FA32002D59A5 /* 底部-工作.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-工作.png"; sourceTree = "<group>"; };
+		8FA827711FA1FA32002D59A5 /* 修改密码-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改密码-1.png"; sourceTree = "<group>"; };
+		8FA827721FA1FA32002D59A5 /* 添加.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加.png"; sourceTree = "<group>"; };
+		8FA827731FA1FA32002D59A5 /* 底部-应用-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-应用-1.png"; sourceTree = "<group>"; };
+		8FA827741FA1FA32002D59A5 /* 头部-返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头部-返回.png"; sourceTree = "<group>"; };
+		8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择员工-默认头像92.png"; sourceTree = "<group>"; };
 		B15103C2A0BD650C29607461 /* Pods-KUAIXIAO_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C150567BC2680A67054ADC8E /* Pods_KUAIXIAO_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA93EB9F38C110E52B9851 /* Pods-KUAIXIAO_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftUITests/Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -455,10 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				3EA5EE391F98C04B00606053 /* AppDelegate.swift */,
-				3EFDE4121F98C7C300810993 /* Resources */,
-				3EFDE4051F98C6B100810993 /* Base */,
+				3EA5EE451F98C04B00606053 /* Info.plist */,
 				3EFDE4061F98C6B100810993 /* Class */,
-				3EFDE4071F98C6B200810993 /* Tool */,
+				8FA827561FA1FA32002D59A5 /* resources */,
 				3EFDE4131F98C7E700810993 /* Other */,
 			);
 			path = KUAIXIAO_Swift;
@@ -500,66 +229,22 @@
 			path = KUAIXIAO_SwiftUITests;
 			sourceTree = "<group>";
 		};
-		3EFDE4051F98C6B100810993 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		3EFDE4061F98C6B100810993 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8FA827511FA1F80B002D59A5 /* MainVC */,
 				3EFDE40D1F98C74F00810993 /* Login */,
 				3EFDE40B1F98C70C00810993 /* Address */,
-				3EFDE4091F98C70B00810993 /* Home */,
-				3EFDE40A1F98C70C00810993 /* MainTabbar */,
-				3EFDE4081F98C70B00810993 /* Work */,
-				3EFDE40C1F98C70C00810993 /* Me */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		3EFDE4071F98C6B200810993 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		3EFDE4081F98C70B00810993 /* Work */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Work;
-			sourceTree = "<group>";
-		};
-		3EFDE4091F98C70B00810993 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		3EFDE40A1F98C70C00810993 /* MainTabbar */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MainTabbar;
 			sourceTree = "<group>";
 		};
 		3EFDE40B1F98C70C00810993 /* Address */ = {
 			isa = PBXGroup;
 			children = (
+				8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */,
 			);
 			path = Address;
-			sourceTree = "<group>";
-		};
-		3EFDE40C1F98C70C00810993 /* Me */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Me;
 			sourceTree = "<group>";
 		};
 		3EFDE40D1F98C74F00810993 /* Login */ = {
@@ -571,419 +256,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		3EFDE4121F98C7C300810993 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE5611F98C95700810993 /* 48.png */,
-				3EFDE5671F98C95800810993 /* 58.png */,
-				3EFDE5681F98C95800810993 /* 72.png */,
-				3EFDE55F1F98C95600810993 /* 80.png */,
-				3EFDE5661F98C95800810993 /* 87.png */,
-				3EFDE5651F98C95700810993 /* 96.png */,
-				3EFDE5601F98C95600810993 /* 120.png */,
-				3EFDE5621F98C95700810993 /* 144.png */,
-				3EFDE5631F98C95700810993 /* 180.png */,
-				3EFDE5641F98C95700810993 /* icon.png */,
-				3EFDE4E11F98C93800810993 /* 报销.png */,
-				3EFDE5311F98C94200810993 /* 出差.png */,
-				3EFDE5551F98C94500810993 /* 点评-星-1.png */,
-				3EFDE5321F98C94200810993 /* 点评-星.png */,
-				3EFDE45C1F98C92E00810993 /* 点评-星星-1.png */,
-				3EFDE4941F98C92F00810993 /* 点评-星星-2.png */,
-				3EFDE4921F98C92F00810993 /* 点评-星星-3.png */,
-				3EFDE4BD1F98C93100810993 /* 点评-星星-4.png */,
-				3EFDE4FB1F98C93D00810993 /* 点评-星星.png */,
-				3EFDE4BF1F98C93100810993 /* 点评.png */,
-				3EFDE4C21F98C93200810993 /* 点赞-1.png */,
-				3EFDE5301F98C94100810993 /* 点赞.png */,
-				3EFDE4CC1F98C93500810993 /* 点赞为空.png */,
-				3EFDE4D51F98C93700810993 /* 发布日志-1.png */,
-				3EFDE5561F98C94500810993 /* 发布日志-2.png */,
-				3EFDE4EE1F98C93B00810993 /* 发布日志.png */,
-				3EFDE4E71F98C93A00810993 /* 发任务-勾.png */,
-				3EFDE4E21F98C93800810993 /* 发任务-截止时间.png */,
-				3EFDE5361F98C94200810993 /* 发任务-截止时间26.png */,
-				3EFDE5241F98C94000810993 /* 发任务-提醒.png */,
-				3EFDE45B1F98C92E00810993 /* 发任务-执行人.png */,
-				3EFDE4D21F98C93600810993 /* 发任务-执行人26.png */,
-				3EFDE52C1F98C94100810993 /* 发任务-重要.png */,
-				3EFDE5351F98C94200810993 /* 发日志-1.png */,
-				3EFDE4EF1F98C93B00810993 /* 发日志-2.png */,
-				3EFDE5191F98C93E00810993 /* 发日志-3.png */,
-				3EFDE5211F98C93F00810993 /* 发日志-4-32.png */,
-				3EFDE45D1F98C92E00810993 /* 发日志-5.png */,
-				3EFDE5521F98C94400810993 /* 发日志-6.png */,
-				3EFDE44D1F98C92D00810993 /* 发日志-7.png */,
-				3EFDE5171F98C93E00810993 /* 发日志-8.png */,
-				3EFDE41B1F98C92C00810993 /* 发日志.png */,
-				3EFDE4CF1F98C93500810993 /* 发审批-1.png */,
-				3EFDE4CE1F98C93500810993 /* 发审批-2.png */,
-				3EFDE55D1F98C94600810993 /* 发审批-3.png */,
-				3EFDE52A1F98C94000810993 /* 发审批-4.png */,
-				3EFDE4F41F98C93B00810993 /* 发审批-5.png */,
-				3EFDE55A1F98C94600810993 /* 发审批-6.png */,
-				3EFDE4581F98C92D00810993 /* 发审批.png */,
-				3EFDE4E01F98C93800810993 /* 返回.png */,
-				3EFDE53B1F98C94300810993 /* 分享 */,
-				3EFDE51D1F98C93F00810993 /* 分享50-50.png */,
-				3EFDE4FA1F98C93C00810993 /* 附件.png */,
-				3EFDE4BE1F98C93100810993 /* 更多.png */,
-				3EFDE51F1F98C93F00810993 /* 工作.jpg */,
-				3EFDE4521F98C92D00810993 /* 公告 */,
-				3EFDE4BC1F98C93100810993 /* 公告管理.png */,
-				3EFDE54C1F98C94400810993 /* 关闭-蓝色.png */,
-				3EFDE4B91F98C93000810993 /* 关注-1.png */,
-				3EFDE4CA1F98C93300810993 /* 关注.png */,
-				3EFDE4E61F98C93900810993 /* 广告.jpg */,
-				3EFDE51A1F98C93E00810993 /* 换审批人.png */,
-				3EFDE5591F98C94500810993 /* 回复.png */,
-				3EFDE5121F98C93D00810993 /* 回复为空.png */,
-				3EFDE4F01F98C93B00810993 /* 回执-反白.png */,
-				3EFDE4F11F98C93B00810993 /* 继续执行.png */,
-				3EFDE5221F98C93F00810993 /* 加班.png */,
-				3EFDE4981F98C93000810993 /* 节点.png */,
-				3EFDE4C51F98C93200810993 /* 拒绝任务.png */,
-				3EFDE5381F98C94300810993 /* 开始时间-下拉.png */,
-				3EFDE4991F98C93000810993 /* 考勤 */,
-				3EFDE5251F98C94000810993 /* 考勤-1.png */,
-				3EFDE4C81F98C93200810993 /* 考勤-2.png */,
-				3EFDE4BA1F98C93000810993 /* 考勤-3.png */,
-				3EFDE4591F98C92E00810993 /* 考勤-4.png */,
-				3EFDE4E91F98C93A00810993 /* 考勤-5.png */,
-				3EFDE4ED1F98C93A00810993 /* 考勤-6.png */,
-				3EFDE51B1F98C93E00810993 /* 考勤-选择日期-1.png */,
-				3EFDE4F81F98C93C00810993 /* 考勤-选择日期.png */,
-				3EFDE5391F98C94300810993 /* 考勤.png */,
-				3EFDE52D1F98C94100810993 /* 客户.png */,
-				3EFDE4C71F98C93200810993 /* 联系人.png */,
-				3EFDE4D31F98C93600810993 /* 录音.png */,
-				3EFDE4C61F98C93200810993 /* 录音关闭.png */,
-				3EFDE4CD1F98C93500810993 /* 没有数据.png */,
-				3EFDE52B1F98C94100810993 /* 期待更多.png */,
-				3EFDE4931F98C92F00810993 /* 请假.png */,
-				3EFDE5271F98C94000810993 /* 取消任务.png */,
-				3EFDE4511F98C92D00810993 /* 取消审批.png */,
-				3EFDE4FC1F98C93D00810993 /* 任务 */,
-				3EFDE4E31F98C93900810993 /* 任务-变更执行人.png */,
-				3EFDE5541F98C94500810993 /* 任务-重要28-28.png */,
-				3EFDE4E81F98C93A00810993 /* 任务.jpg */,
-				3EFDE4C91F98C93300810993 /* 任务详情-执行人.png */,
-				3EFDE4611F98C92E00810993 /* 日志 */,
-				3EFDE5141F98C93D00810993 /* 日志.jpg */,
-				3EFDE4E41F98C93900810993 /* 日志默认头像72.png */,
-				3EFDE4D01F98C93600810993 /* 日志详情-删除.png */,
-				3EFDE4D71F98C93700810993 /* 日志已点评星星-1.png */,
-				3EFDE5181F98C93E00810993 /* 日志已点评星星.png */,
-				3EFDE4DD1F98C93800810993 /* 筛选-选中.png */,
-				3EFDE4D61F98C93700810993 /* 筛选.png */,
-				3EFDE4D11F98C93600810993 /* 删除.png */,
-				3EFDE41F1F98C92C00810993 /* 审批 */,
-				3EFDE4571F98C92D00810993 /* 审批-报销.png */,
-				3EFDE5571F98C94500810993 /* 审批-抄送范围.png */,
-				3EFDE5341F98C94200810993 /* 审批-出差.png */,
-				3EFDE4D91F98C93700810993 /* 审批-待批复-1.png */,
-				3EFDE5101F98C93D00810993 /* 审批-待批复.png */,
-				3EFDE55C1F98C94600810993 /* 审批-点.png */,
-				3EFDE5331F98C94200810993 /* 审批-加班.png */,
-				3EFDE44B1F98C92D00810993 /* 审批-默认头像.png */,
-				3EFDE4EA1F98C93A00810993 /* 审批-批复.png */,
-				3EFDE44F1F98C92D00810993 /* 审批-请假.png */,
-				3EFDE4951F98C92F00810993 /* 审批-取消关闭.png */,
-				3EFDE4F91F98C93C00810993 /* 审批-取消审批.png */,
-				3EFDE4F61F98C93C00810993 /* 审批-通用审批.png */,
-				3EFDE4BB1F98C93000810993 /* 审批-同意.png */,
-				3EFDE4C11F98C93100810993 /* 审批-外出.png */,
-				3EFDE5501F98C94400810993 /* 审批-物品领用.png */,
-				3EFDE41C1F98C92C00810993 /* 审批-相机-36.png */,
-				3EFDE4DB1F98C93700810993 /* 审批-增加明细.png */,
-				3EFDE4C01F98C93100810993 /* 审批.jpg */,
-				3EFDE4DE1F98C93800810993 /* 收藏-1.png */,
-				3EFDE5371F98C94300810993 /* 收藏.png */,
-				3EFDE4F21F98C93B00810993 /* 搜索 (2).png */,
-				3EFDE5231F98C94000810993 /* 搜索为空.png */,
-				3EFDE41D1F98C92C00810993 /* 所有日志.png */,
-				3EFDE51C1F98C93F00810993 /* 所有审批.png */,
-				3EFDE52E1F98C94100810993 /* 提醒-1.png */,
-				3EFDE45A1F98C92E00810993 /* 提醒.png */,
-				3EFDE4961F98C92F00810993 /* 添加-1.png */,
-				3EFDE4DC1F98C93800810993 /* 添加.png */,
-				3EFDE45E1F98C92E00810993 /* 添加审批人.png */,
-				3EFDE4601F98C92E00810993 /* 通讯录.jpg */,
-				3EFDE4DF1F98C93800810993 /* 通用审批.png */,
-				3EFDE54B1F98C94300810993 /* 统计-1.png */,
-				3EFDE4D81F98C93700810993 /* 统计-2.png */,
-				3EFDE41E1F98C92C00810993 /* 统计-3.png */,
-				3EFDE4501F98C92D00810993 /* 统计.png */,
-				3EFDE45F1F98C92E00810993 /* 头部-白条.png */,
-				3EFDE4E51F98C93900810993 /* 外出.png */,
-				3EFDE5161F98C93E00810993 /* 我发出的.png */,
-				3EFDE5281F98C94000810993 /* 我发出的任务.png */,
-				3EFDE5531F98C94400810993 /* 我发出的日志.png */,
-				3EFDE5111F98C93D00810993 /* 我收到的.png */,
-				3EFDE5581F98C94500810993 /* 我收到的日志.png */,
-				3EFDE44E1F98C92D00810993 /* 我执行的任务.png */,
-				3EFDE48F1F98C92F00810993 /* 无数据 */,
-				3EFDE51E1F98C93F00810993 /* 物品领用.png */,
-				3EFDE4CB1F98C93400810993 /* 详情-转交.png */,
-				3EFDE54E1F98C94400810993 /* 向右-深色.png */,
-				3EFDE55B1F98C94600810993 /* 写日志.png */,
-				3EFDE5511F98C94400810993 /* 写月报.png */,
-				3EFDE53A1F98C94300810993 /* 写周报.png */,
-				3EFDE54F1F98C94400810993 /* 修改截止时间.png */,
-				3EFDE5201F98C93F00810993 /* 选择照片.png */,
-				3EFDE4DA1F98C93700810993 /* 已点评.png */,
-				3EFDE4F31F98C93B00810993 /* 语音-1.png */,
-				3EFDE4971F98C93000810993 /* 语音.png */,
-				3EFDE4EB1F98C93A00810993 /* 原图选择-1.png */,
-				3EFDE5151F98C93E00810993 /* 原图选择.png */,
-				3EFDE4F51F98C93C00810993 /* 赞过回复的人60.png */,
-				3EFDE44C1F98C92D00810993 /* 知识库.jpg */,
-				3EFDE5261F98C94000810993 /* 指纹.png */,
-				3EFDE4EC1F98C93A00810993 /* 重新提交.png */,
-				3EFDE4D41F98C93600810993 /* 重做.png */,
-				3EFDE54D1F98C94400810993 /* 转交.png */,
-				3EFDE4C31F98C93200810993 /* CRM.jpg */,
-				3EFDE55E1F98C94600810993 /* CRM数据.png */,
-				3EFDE5291F98C94000810993 /* Excel.png */,
-				3EFDE4F71F98C93C00810993 /* RAR.png */,
-				3EFDE4C41F98C93200810993 /* single-6.png */,
-				3EFDE5131F98C93D00810993 /* TXT.png */,
-				3EFDE52F1F98C94100810993 /* WORLD.png */,
-				3EFDE4151F98C92200810993 /* @@2x.png */,
-				3EFDE41A1F98C92200810993 /* 图层-2@2x.png */,
-				3EFDE4141F98C92100810993 /* 图层-3@2x.png */,
-				3EFDE4161F98C92200810993 /* 图层-4@2x.png */,
-				3EFDE4181F98C92200810993 /* 形状-1-拷贝@2x.png */,
-				3EFDE4191F98C92200810993 /* 组-1@2x.png */,
-				3EFDE4171F98C92200810993 /* 组-2@2x.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		3EFDE4131F98C7E700810993 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				3EA5EE3D1F98C04B00606053 /* Main.storyboard */,
 				3EA5EE401F98C04B00606053 /* Assets.xcassets */,
 				3EA5EE421F98C04B00606053 /* LaunchScreen.storyboard */,
-				3EA5EE451F98C04B00606053 /* Info.plist */,
 			);
 			path = Other;
-			sourceTree = "<group>";
-		};
-		3EFDE41F1F98C92C00810993 /* 审批 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE4201F98C92C00810993 /* 全部审批-.jpg */,
-				3EFDE4211F98C92C00810993 /* 全部审批-筛选.jpg */,
-				3EFDE4221F98C92C00810993 /* 全部审批-筛选.psd */,
-				3EFDE4231F98C92C00810993 /* 全部审批-详情-完成.jpg */,
-				3EFDE4241F98C92C00810993 /* 全部审批-详情-完成.psd */,
-				3EFDE4251F98C92C00810993 /* 全部审批-详情.jpg */,
-				3EFDE4261F98C92C00810993 /* 全部审批-详情.psd */,
-				3EFDE4271F98C92C00810993 /* 全部审批.jpg */,
-				3EFDE4281F98C92C00810993 /* 全部审批.psd */,
-				3EFDE4291F98C92C00810993 /* 出差.jpg */,
-				3EFDE42A1F98C92C00810993 /* 出差.psd */,
-				3EFDE42B1F98C92C00810993 /* 加班.jpg */,
-				3EFDE42C1F98C92C00810993 /* 加班.psd */,
-				3EFDE42D1F98C92C00810993 /* 外出.jpg */,
-				3EFDE42E1F98C92C00810993 /* 外出.psd */,
-				3EFDE42F1F98C92C00810993 /* 审批-搜索-高级.jpg */,
-				3EFDE4301F98C92C00810993 /* 审批-搜索-高级.psd */,
-				3EFDE4311F98C92C00810993 /* 审批-搜索.jpg */,
-				3EFDE4321F98C92C00810993 /* 审批-搜索.psd */,
-				3EFDE4331F98C92C00810993 /* 审批.jpg */,
-				3EFDE4341F98C92C00810993 /* 审批.psd */,
-				3EFDE4351F98C92C00810993 /* 我发出的审批-已审批.jpg */,
-				3EFDE4361F98C92C00810993 /* 我发出的审批-已审批.psd */,
-				3EFDE4371F98C92C00810993 /* 我发出的审批.jpg */,
-				3EFDE4381F98C92D00810993 /* 我发出的审批.psd */,
-				3EFDE4391F98C92D00810993 /* 我收到的-已审批.jpg */,
-				3EFDE43A1F98C92D00810993 /* 我收到的-已审批.psd */,
-				3EFDE43B1F98C92D00810993 /* 我收到的审批.jpg */,
-				3EFDE43C1F98C92D00810993 /* 我收到的审批.psd */,
-				3EFDE43D1F98C92D00810993 /* 报销.jpg */,
-				3EFDE43E1F98C92D00810993 /* 报销.psd */,
-				3EFDE43F1F98C92D00810993 /* 物品领用.jpg */,
-				3EFDE4401F98C92D00810993 /* 物品领用.psd */,
-				3EFDE4411F98C92D00810993 /* 请假--.jpg */,
-				3EFDE4421F98C92D00810993 /* 请假-.jpg */,
-				3EFDE4431F98C92D00810993 /* 请假.jpg */,
-				3EFDE4441F98C92D00810993 /* 请假.psd */,
-				3EFDE4451F98C92D00810993 /* 选择审批人.jpg */,
-				3EFDE4461F98C92D00810993 /* 选择审批人.psd */,
-				3EFDE4471F98C92D00810993 /* 选择抄送范围.jpg */,
-				3EFDE4481F98C92D00810993 /* 选择抄送范围.psd */,
-				3EFDE4491F98C92D00810993 /* 通用审批.jpg */,
-				3EFDE44A1F98C92D00810993 /* 通用审批.psd */,
-			);
-			name = "审批";
-			path = "../../../切图/工作/审批";
-			sourceTree = "<group>";
-		};
-		3EFDE4521F98C92D00810993 /* 公告 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE4531F98C92D00810993 /* 1.png */,
-				3EFDE4541F98C92D00810993 /* 2.png */,
-				3EFDE4551F98C92D00810993 /* 3.png */,
-				3EFDE4561F98C92D00810993 /* 4.png */,
-			);
-			name = "公告";
-			path = "../../../切图/工作/公告";
-			sourceTree = "<group>";
-		};
-		3EFDE4611F98C92E00810993 /* 日志 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE4621F98C92E00810993 /* 全部日志---.jpg */,
-				3EFDE4631F98C92E00810993 /* 全部日志--.jpg */,
-				3EFDE4641F98C92E00810993 /* 全部日志-.jpg */,
-				3EFDE4651F98C92E00810993 /* 全部日志-回复.jpg */,
-				3EFDE4661F98C92E00810993 /* 全部日志-回复.psd */,
-				3EFDE4671F98C92E00810993 /* 全部日志-查看文档.jpg */,
-				3EFDE4681F98C92E00810993 /* 全部日志-查看文档.psd */,
-				3EFDE4691F98C92E00810993 /* 全部日志-点评--.jpg */,
-				3EFDE46A1F98C92E00810993 /* 全部日志-点评-.jpg */,
-				3EFDE46B1F98C92E00810993 /* 全部日志-点评-赞过回复的人.jpg */,
-				3EFDE46C1F98C92E00810993 /* 全部日志-点评-赞过回复的人.psd */,
-				3EFDE46D1F98C92E00810993 /* 全部日志-点评.jpg */,
-				3EFDE46E1F98C92E00810993 /* 全部日志-点评.psd */,
-				3EFDE46F1F98C92E00810993 /* 全部日志-筛选.jpg */,
-				3EFDE4701F98C92E00810993 /* 全部日志-筛选.psd */,
-				3EFDE4711F98C92E00810993 /* 全部日志-详情-.jpg */,
-				3EFDE4721F98C92E00810993 /* 全部日志-详情-赞.jpg */,
-				3EFDE4731F98C92F00810993 /* 全部日志-详情-赞.psd */,
-				3EFDE4741F98C92F00810993 /* 全部日志-详情.jpg */,
-				3EFDE4751F98C92F00810993 /* 全部日志-详情.psd */,
-				3EFDE4761F98C92F00810993 /* 全部日志.jpg */,
-				3EFDE4771F98C92F00810993 /* 全部日志.psd */,
-				3EFDE4781F98C92F00810993 /* 发日志-.jpg */,
-				3EFDE4791F98C92F00810993 /* 发日志.jpg */,
-				3EFDE47A1F98C92F00810993 /* 发日志.psd */,
-				3EFDE47B1F98C92F00810993 /* 我发出的日志-已点评.jpg */,
-				3EFDE47C1F98C92F00810993 /* 我发出的日志-已点评.psd */,
-				3EFDE47D1F98C92F00810993 /* 我发出的日志.jpg */,
-				3EFDE47E1F98C92F00810993 /* 我发出的日志.psd */,
-				3EFDE47F1F98C92F00810993 /* 我收到的日志-已点评.jpg */,
-				3EFDE4801F98C92F00810993 /* 我收到的日志-已点评.psd */,
-				3EFDE4811F98C92F00810993 /* 我收到的日志.jpg */,
-				3EFDE4821F98C92F00810993 /* 我收到的日志.psd */,
-				3EFDE4831F98C92F00810993 /* 日志-搜索-高级.jpg */,
-				3EFDE4841F98C92F00810993 /* 日志-搜索-高级.psd */,
-				3EFDE4851F98C92F00810993 /* 日志-搜索.jpg */,
-				3EFDE4861F98C92F00810993 /* 日志-搜索.psd */,
-				3EFDE4871F98C92F00810993 /* 日志.jpg */,
-				3EFDE4881F98C92F00810993 /* 日志.psd */,
-				3EFDE4891F98C92F00810993 /* 选择抄送范围.jpg */,
-				3EFDE48A1F98C92F00810993 /* 选择抄送范围.psd */,
-				3EFDE48B1F98C92F00810993 /* 选择点评人.jpg */,
-				3EFDE48C1F98C92F00810993 /* 选择点评人.psd */,
-				3EFDE48D1F98C92F00810993 /* 选择照片.jpg */,
-				3EFDE48E1F98C92F00810993 /* 选择照片.psd */,
-			);
-			name = "日志";
-			path = "../../../切图/工作/日志";
-			sourceTree = "<group>";
-		};
-		3EFDE48F1F98C92F00810993 /* 无数据 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE4901F98C92F00810993 /* 搜索-无结果.jpg */,
-				3EFDE4911F98C92F00810993 /* 无数据.jpg */,
-			);
-			name = "无数据";
-			path = "../../../切图/工作/无数据";
-			sourceTree = "<group>";
-		};
-		3EFDE4991F98C93000810993 /* 考勤 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE49A1F98C93000810993 /* kq0007@2x.png */,
-				3EFDE49B1F98C93000810993 /* kq0008@2x.png */,
-				3EFDE49C1F98C93000810993 /* kq001@2x.png */,
-				3EFDE49D1F98C93000810993 /* kq002@2x.png */,
-				3EFDE49E1F98C93000810993 /* kq003@2x.png */,
-				3EFDE49F1F98C93000810993 /* kq004@2x.png */,
-				3EFDE4A01F98C93000810993 /* kq005@2x.png */,
-				3EFDE4A11F98C93000810993 /* kq006@2x.png */,
-				3EFDE4A21F98C93000810993 /* kq010@2x.png */,
-				3EFDE4A31F98C93000810993 /* kq011@2x.png */,
-				3EFDE4A41F98C93000810993 /* kq012@2x.png */,
-				3EFDE4A51F98C93000810993 /* kq013@2x.png */,
-				3EFDE4A61F98C93000810993 /* kq014@2x.png */,
-				3EFDE4A71F98C93000810993 /* kq015@2x.png */,
-				3EFDE4A81F98C93000810993 /* kq016@2x.png */,
-				3EFDE4A91F98C93000810993 /* kq017@2x.png */,
-				3EFDE4AA1F98C93000810993 /* kq018@2x.png */,
-				3EFDE4AB1F98C93000810993 /* kq019@2x.png */,
-				3EFDE4AC1F98C93000810993 /* kq020@2x.png */,
-				3EFDE4AD1F98C93000810993 /* kq021@2x.png */,
-				3EFDE4AE1F98C93000810993 /* kq022@2x.png */,
-				3EFDE4AF1F98C93000810993 /* kq023@2x.png */,
-				3EFDE4B01F98C93000810993 /* kq024@2x.png */,
-				3EFDE4B11F98C93000810993 /* kq025@2x.png */,
-				3EFDE4B21F98C93000810993 /* kq026@2x.png */,
-				3EFDE4B31F98C93000810993 /* kq027@2x.png */,
-				3EFDE4B41F98C93000810993 /* kq028@2x.png */,
-				3EFDE4B51F98C93000810993 /* kq029@2x.png */,
-				3EFDE4B61F98C93000810993 /* kq030@2x.png */,
-				3EFDE4B71F98C93000810993 /* kq031@2x.png */,
-				3EFDE4B81F98C93000810993 /* kq032@2x.png */,
-			);
-			name = "考勤";
-			path = "../../../切图/工作/考勤";
-			sourceTree = "<group>";
-		};
-		3EFDE4FC1F98C93D00810993 /* 任务 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE4FD1F98C93D00810993 /* 任务-.jpg */,
-				3EFDE4FE1F98C93D00810993 /* 任务-搜索.jpg */,
-				3EFDE4FF1F98C93D00810993 /* 任务.jpg */,
-				3EFDE5001F98C93D00810993 /* 发任务-.jpg */,
-				3EFDE5011F98C93D00810993 /* 发任务-1-.jpg */,
-				3EFDE5021F98C93D00810993 /* 发任务-1.jpg */,
-				3EFDE5031F98C93D00810993 /* 发任务-具体时间-1.jpg */,
-				3EFDE5041F98C93D00810993 /* 发任务-提醒.jpg */,
-				3EFDE5051F98C93D00810993 /* 发任务.jpg */,
-				3EFDE5061F98C93D00810993 /* 我发出的任务-已取消.jpg */,
-				3EFDE5071F98C93D00810993 /* 我发出的任务-详情.jpg */,
-				3EFDE5081F98C93D00810993 /* 我发出的任务.jpg */,
-				3EFDE5091F98C93D00810993 /* 我执行的任务-详情-提醒.jpg */,
-				3EFDE50A1F98C93D00810993 /* 我执行的任务-详情.jpg */,
-				3EFDE50B1F98C93D00810993 /* 我执行的任务.jpg */,
-				3EFDE50C1F98C93D00810993 /* 执行人-1.jpg */,
-				3EFDE50D1F98C93D00810993 /* 执行人.jpg */,
-				3EFDE50E1F98C93D00810993 /* 继续执行.jpg */,
-				3EFDE50F1F98C93D00810993 /* 选择执行人.jpg */,
-			);
-			name = "任务";
-			path = "../../../切图/工作/任务";
-			sourceTree = "<group>";
-		};
-		3EFDE53B1F98C94300810993 /* 分享 */ = {
-			isa = PBXGroup;
-			children = (
-				3EFDE53C1F98C94300810993 /* 分享-.jpg */,
-				3EFDE53D1F98C94300810993 /* 分享-回复.jpg */,
-				3EFDE53E1F98C94300810993 /* 分享-搜索-无结果.jpg */,
-				3EFDE53F1F98C94300810993 /* 分享-搜索-高级.jpg */,
-				3EFDE5401F98C94300810993 /* 分享-搜索.jpg */,
-				3EFDE5411F98C94300810993 /* 分享.jpg */,
-				3EFDE5421F98C94300810993 /* 分享详情--.jpg */,
-				3EFDE5431F98C94300810993 /* 分享详情-.jpg */,
-				3EFDE5441F98C94300810993 /* 分享详情.jpg */,
-				3EFDE5451F98C94300810993 /* 发分享-.jpg */,
-				3EFDE5461F98C94300810993 /* 发分享.jpg */,
-				3EFDE5471F98C94300810993 /* 语音--.jpg */,
-				3EFDE5481F98C94300810993 /* 语音-.jpg */,
-				3EFDE5491F98C94300810993 /* 语音.jpg */,
-				3EFDE54A1F98C94300810993 /* 选择抄送范围.jpg */,
-			);
-			name = "分享";
-			path = "../../../切图/工作/分享";
 			sourceTree = "<group>";
 		};
 		41874C9749A1C91A0B89FF5B /* Pods */ = {
@@ -1009,6 +289,59 @@
 				C150567BC2680A67054ADC8E /* Pods_KUAIXIAO_SwiftUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA827511FA1F80B002D59A5 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		8FA827561FA1FA32002D59A5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827571FA1FA32002D59A5 /* 公共图标 */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		8FA827571FA1FA32002D59A5 /* 公共图标 */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827581FA1FA32002D59A5 /* 向右.png */,
+				8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */,
+				8FA8275A1FA1FA32002D59A5 /* 750-128.jpg */,
+				8FA8275B1FA1FA32002D59A5 /* 底部-我.png */,
+				8FA8275C1FA1FA32002D59A5 /* 选择-1.png */,
+				8FA8275D1FA1FA32002D59A5 /* 底部-我-1.png */,
+				8FA8275E1FA1FA32002D59A5 /* 750-128-1.png */,
+				8FA8275F1FA1FA32002D59A5 /* 个人资料-默认图像120.png */,
+				8FA827601FA1FA32002D59A5 /* 筛选.png */,
+				8FA827611FA1FA32002D59A5 /* 筛选-选中.png */,
+				8FA827621FA1FA32002D59A5 /* 底部-消息.png */,
+				8FA827631FA1FA32002D59A5 /* 原图选择-1.png */,
+				8FA827641FA1FA32002D59A5 /* 日志默认头像72.png */,
+				8FA827651FA1FA32002D59A5 /* 搜索.png */,
+				8FA827661FA1FA32002D59A5 /* 修改密码.png */,
+				8FA827671FA1FA32002D59A5 /* 选择.png */,
+				8FA827681FA1FA32002D59A5 /* 底部-工作-1.png */,
+				8FA827691FA1FA32002D59A5 /* 搜索 (2).png */,
+				8FA8276A1FA1FA32002D59A5 /* 底部-应用.png */,
+				8FA8276B1FA1FA32002D59A5 /* 圆角矩形-1.9.png */,
+				8FA8276C1FA1FA32002D59A5 /* 向下.png */,
+				8FA8276D1FA1FA32002D59A5 /* 原图选择.png */,
+				8FA8276E1FA1FA32002D59A5 /* 向上.jpg */,
+				8FA8276F1FA1FA32002D59A5 /* 底部-消息-1.png */,
+				8FA827701FA1FA32002D59A5 /* 底部-工作.png */,
+				8FA827711FA1FA32002D59A5 /* 修改密码-1.png */,
+				8FA827721FA1FA32002D59A5 /* 添加.png */,
+				8FA827731FA1FA32002D59A5 /* 底部-应用-1.png */,
+				8FA827741FA1FA32002D59A5 /* 头部-返回.png */,
+				8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */,
+			);
+			path = "公共图标";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1128,10 +461,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FA8278A1FA1FA32002D59A5 /* 向下.png in Resources */,
+				8FA8277E1FA1FA32002D59A5 /* 筛选.png in Resources */,
+				8FA827911FA1FA32002D59A5 /* 底部-应用-1.png in Resources */,
+				8FA827921FA1FA32002D59A5 /* 头部-返回.png in Resources */,
+				8FA827931FA1FA32002D59A5 /* 选择员工-默认头像92.png in Resources */,
+				8FA827761FA1FA32002D59A5 /* 向右.png in Resources */,
+				8FA827801FA1FA32002D59A5 /* 底部-消息.png in Resources */,
+				8FA8278B1FA1FA32002D59A5 /* 原图选择.png in Resources */,
+				8FA8278D1FA1FA32002D59A5 /* 底部-消息-1.png in Resources */,
 				3EA5EE441F98C04B00606053 /* LaunchScreen.storyboard in Resources */,
+				8FA8277F1FA1FA32002D59A5 /* 筛选-选中.png in Resources */,
+				8FA827831FA1FA32002D59A5 /* 搜索.png in Resources */,
+				8FA8277B1FA1FA32002D59A5 /* 底部-我-1.png in Resources */,
+				8FA827881FA1FA32002D59A5 /* 底部-应用.png in Resources */,
+				8FA827901FA1FA32002D59A5 /* 添加.png in Resources */,
 				3EA5EE411F98C04B00606053 /* Assets.xcassets in Resources */,
+				8FA827771FA1FA32002D59A5 /* 赞过回复的人60.png in Resources */,
+				8FA8278F1FA1FA32002D59A5 /* 修改密码-1.png in Resources */,
 				3EA5EE3F1F98C04B00606053 /* Main.storyboard in Resources */,
+				8FA8277C1FA1FA32002D59A5 /* 750-128-1.png in Resources */,
+				8FA827811FA1FA32002D59A5 /* 原图选择-1.png in Resources */,
+				8FA827861FA1FA32002D59A5 /* 底部-工作-1.png in Resources */,
+				8FA8278E1FA1FA32002D59A5 /* 底部-工作.png in Resources */,
+				8FA827781FA1FA32002D59A5 /* 750-128.jpg in Resources */,
+				8FA827891FA1FA32002D59A5 /* 圆角矩形-1.9.png in Resources */,
+				8FA827791FA1FA32002D59A5 /* 底部-我.png in Resources */,
+				8FA8277D1FA1FA32002D59A5 /* 个人资料-默认图像120.png in Resources */,
+				8FA8278C1FA1FA32002D59A5 /* 向上.jpg in Resources */,
+				8FA827851FA1FA32002D59A5 /* 选择.png in Resources */,
+				8FA827821FA1FA32002D59A5 /* 日志默认头像72.png in Resources */,
+				8FA827871FA1FA32002D59A5 /* 搜索 (2).png in Resources */,
 				3EFDE4111F98C79200810993 /* KX_LoginVC.xib in Resources */,
+				8FA8277A1FA1FA32002D59A5 /* 选择-1.png in Resources */,
+				8FA827841FA1FA32002D59A5 /* 修改密码.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1158,13 +521,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUAIXIAO_Swift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1BFDFCD4843488A01867AC4C /* [CP] Check Pods Manifest.lock */ = {
@@ -1173,13 +539,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUAIXIAO_SwiftUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B184F9E26FBF9C14A300B2D /* [CP] Check Pods Manifest.lock */ = {
@@ -1188,13 +557,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KUAIXIAO_SwiftTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4EB87658E2D07B8072D36EDB /* [CP] Copy Pods Resources */ = {
@@ -1248,9 +620,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KUAIXIAO_Swift/Pods-KUAIXIAO_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FillableLoaders/FillableLoaders.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FillableLoaders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1296,6 +679,8 @@
 			files = (
 				3EA5EE3A1F98C04B00606053 /* AppDelegate.swift in Sources */,
 				3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */,
+				8FA827551FA1F9A7002D59A5 /* KX_AddressVC.swift in Sources */,
+				8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
