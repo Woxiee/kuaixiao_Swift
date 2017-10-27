@@ -33,7 +33,7 @@ class KX_LoginVC: UIViewController {
     @IBAction func didClickLogBtn(_ sender: Any) {
         if (_userTF.text?.characters.count != 0)
         {
-            
+            self.view.window?.rootViewController = KX_MainTabBarVC()
         }
         
     }

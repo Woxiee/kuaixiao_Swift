@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window  = UIWindow(frame:UIScreen.main.bounds)
         let loginVC = KX_LoginVC()
         window?.rootViewController = loginVC
+        window?.backgroundColor = UIColor.white
         window?.makeKeyAndVisible()
         return true
     }

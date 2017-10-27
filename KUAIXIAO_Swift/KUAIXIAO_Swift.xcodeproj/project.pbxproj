@@ -18,7 +18,6 @@
 		3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDE40E1F98C79200810993 /* KX_LoginVC.swift */; };
 		3EFDE4111F98C79200810993 /* KX_LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDE40F1F98C79200810993 /* KX_LoginVC.xib */; };
 		8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */; };
-		8FA827551FA1F9A7002D59A5 /* KX_AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */; };
 		8FA827761FA1FA32002D59A5 /* 向右.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827581FA1FA32002D59A5 /* 向右.png */; };
 		8FA827771FA1FA32002D59A5 /* 赞过回复的人60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */; };
 		8FA827781FA1FA32002D59A5 /* 750-128.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA8275A1FA1FA32002D59A5 /* 750-128.jpg */; };
@@ -49,6 +48,11 @@
 		8FA827911FA1FA32002D59A5 /* 底部-应用-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827731FA1FA32002D59A5 /* 底部-应用-1.png */; };
 		8FA827921FA1FA32002D59A5 /* 头部-返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827741FA1FA32002D59A5 /* 头部-返回.png */; };
 		8FA827931FA1FA32002D59A5 /* 选择员工-默认头像92.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */; };
+		8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827951FA1FD0D002D59A5 /* KX_AddressVC.swift */; };
+		8FA827AA1FA1FD92002D59A5 /* KX_MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */; };
+		8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */; };
+		8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */; };
+		8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */; };
 		C1D327906FC636EB2FDAE437 /* Pods_KUAIXIAO_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14988DE91CD1598CC7D74FF /* Pods_KUAIXIAO_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +96,6 @@
 		70DE7A274C49B7336040A5A9 /* Pods-KUAIXIAO_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		83B1910C7B59B33A427E84C7 /* Pods_KUAIXIAO_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MainTabBarVC.swift; sourceTree = "<group>"; };
-		8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_AddressVC.swift; sourceTree = "<group>"; };
 		8FA827581FA1FA32002D59A5 /* 向右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向右.png"; sourceTree = "<group>"; };
 		8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赞过回复的人60.png"; sourceTree = "<group>"; };
 		8FA8275A1FA1FA32002D59A5 /* 750-128.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "750-128.jpg"; sourceTree = "<group>"; };
@@ -123,6 +126,11 @@
 		8FA827731FA1FA32002D59A5 /* 底部-应用-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部-应用-1.png"; sourceTree = "<group>"; };
 		8FA827741FA1FA32002D59A5 /* 头部-返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头部-返回.png"; sourceTree = "<group>"; };
 		8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择员工-默认头像92.png"; sourceTree = "<group>"; };
+		8FA827951FA1FD0D002D59A5 /* KX_AddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KX_AddressVC.swift; sourceTree = "<group>"; };
+		8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MessageVC.swift; sourceTree = "<group>"; };
+		8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_WorkVC.swift; sourceTree = "<group>"; };
+		8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MeViewController.swift; sourceTree = "<group>"; };
+		8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_RequestTool.swift; sourceTree = "<group>"; };
 		B15103C2A0BD650C29607461 /* Pods-KUAIXIAO_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C150567BC2680A67054ADC8E /* Pods_KUAIXIAO_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA93EB9F38C110E52B9851 /* Pods-KUAIXIAO_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftUITests/Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +194,7 @@
 			children = (
 				3EA5EE391F98C04B00606053 /* AppDelegate.swift */,
 				3EA5EE451F98C04B00606053 /* Info.plist */,
+				8FA827AF1FA20588002D59A5 /* FK_RequestTool */,
 				3EFDE4061F98C6B100810993 /* Class */,
 				8FA827561FA1FA32002D59A5 /* resources */,
 				3EFDE4131F98C7E700810993 /* Other */,
@@ -232,6 +241,9 @@
 		3EFDE4061F98C6B100810993 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8FA8279F1FA1FD1B002D59A5 /* Me */,
+				8FA827A41FA1FD1B002D59A5 /* Message */,
+				8FA8279A1FA1FD1B002D59A5 /* Work */,
 				8FA827511FA1F80B002D59A5 /* MainVC */,
 				3EFDE40D1F98C74F00810993 /* Login */,
 				3EFDE40B1F98C70C00810993 /* Address */,
@@ -242,7 +254,10 @@
 		3EFDE40B1F98C70C00810993 /* Address */ = {
 			isa = PBXGroup;
 			children = (
-				8FA827541FA1F9A7002D59A5 /* KX_AddressVC.swift */,
+				8FA827971FA1FD0D002D59A5 /* Models */,
+				8FA827941FA1FD0D002D59A5 /* VCs */,
+				8FA827981FA1FD0D002D59A5 /* Views */,
+				8FA827961FA1FD0D002D59A5 /* VModels */,
 			);
 			path = Address;
 			sourceTree = "<group>";
@@ -342,6 +357,163 @@
 				8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */,
 			);
 			path = "公共图标";
+			sourceTree = "<group>";
+		};
+		8FA827941FA1FD0D002D59A5 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827951FA1FD0D002D59A5 /* KX_AddressVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		8FA827961FA1FD0D002D59A5 /* VModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VModels;
+			sourceTree = "<group>";
+		};
+		8FA827971FA1FD0D002D59A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FA827981FA1FD0D002D59A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FA8279A1FA1FD1B002D59A5 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				8FA8279B1FA1FD1B002D59A5 /* VModels */,
+				8FA8279C1FA1FD1B002D59A5 /* Models */,
+				8FA8279D1FA1FD1B002D59A5 /* VCs */,
+				8FA8279E1FA1FD1B002D59A5 /* Views */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		8FA8279B1FA1FD1B002D59A5 /* VModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VModels;
+			sourceTree = "<group>";
+		};
+		8FA8279C1FA1FD1B002D59A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FA8279D1FA1FD1B002D59A5 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		8FA8279E1FA1FD1B002D59A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FA8279F1FA1FD1B002D59A5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827A01FA1FD1B002D59A5 /* VModels */,
+				8FA827A11FA1FD1B002D59A5 /* Models */,
+				8FA827A21FA1FD1B002D59A5 /* VCs */,
+				8FA827A31FA1FD1B002D59A5 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		8FA827A01FA1FD1B002D59A5 /* VModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VModels;
+			sourceTree = "<group>";
+		};
+		8FA827A11FA1FD1B002D59A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FA827A21FA1FD1B002D59A5 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		8FA827A31FA1FD1B002D59A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FA827A41FA1FD1B002D59A5 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827A51FA1FD1B002D59A5 /* VModels */,
+				8FA827A61FA1FD1B002D59A5 /* Models */,
+				8FA827A71FA1FD1B002D59A5 /* VCs */,
+				8FA827A81FA1FD1B002D59A5 /* Views */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		8FA827A51FA1FD1B002D59A5 /* VModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VModels;
+			sourceTree = "<group>";
+		};
+		8FA827A61FA1FD1B002D59A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FA827A71FA1FD1B002D59A5 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		8FA827A81FA1FD1B002D59A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FA827AF1FA20588002D59A5 /* FK_RequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */,
+			);
+			path = FK_RequestTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -678,8 +850,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA5EE3A1F98C04B00606053 /* AppDelegate.swift in Sources */,
+				8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */,
 				3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */,
-				8FA827551FA1F9A7002D59A5 /* KX_AddressVC.swift in Sources */,
+				8FA827AA1FA1FD92002D59A5 /* KX_MessageVC.swift in Sources */,
+				8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */,
+				8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */,
+				8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */,
 				8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
