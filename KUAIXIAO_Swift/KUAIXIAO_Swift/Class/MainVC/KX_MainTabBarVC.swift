@@ -19,6 +19,8 @@ class KX_MainTabBarVC: UITabBarController {
 
         addChildViewController(childController: KX_MeViewController(), title: "办公", imageName: "me_nomal", imageHightName: "me_select")
 
+        
+
     }
 
 

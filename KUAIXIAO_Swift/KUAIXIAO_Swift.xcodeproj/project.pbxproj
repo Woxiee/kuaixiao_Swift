@@ -17,6 +17,14 @@
 		3EA5EE5A1F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5EE591F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift */; };
 		3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDE40E1F98C79200810993 /* KX_LoginVC.swift */; };
 		3EFDE4111F98C79200810993 /* KX_LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDE40F1F98C79200810993 /* KX_LoginVC.xib */; };
+		8F7A7BEC1FA73CC7008E7E0B /* mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A7BEB1FA73CC7008E7E0B /* mac.swift */; };
+		8F7A7BED1FA74322008E7E0B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BEE1FA74322008E7E0B /* Alamofire.framework */; };
+		8F7A7BEF1FA74337008E7E0B /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BF51FA74337008E7E0B /* DZNEmptyDataSet.framework */; };
+		8F7A7BF01FA74337008E7E0B /* FillableLoaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BF61FA74337008E7E0B /* FillableLoaders.framework */; };
+		8F7A7BF11FA74337008E7E0B /* Onboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BF71FA74337008E7E0B /* Onboard.framework */; };
+		8F7A7BF21FA74337008E7E0B /* RAMAnimatedTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BF81FA74337008E7E0B /* RAMAnimatedTabBarController.framework */; };
+		8F7A7BF31FA74337008E7E0B /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BF91FA74337008E7E0B /* Reachability.framework */; };
+		8F7A7BF41FA74337008E7E0B /* SJProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BFA1FA74337008E7E0B /* SJProgressHUD.framework */; };
 		8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */; };
 		8FA827761FA1FA32002D59A5 /* 向右.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827581FA1FA32002D59A5 /* 向右.png */; };
 		8FA827771FA1FA32002D59A5 /* 赞过回复的人60.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */; };
@@ -53,6 +61,7 @@
 		8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */; };
 		8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */; };
 		8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */; };
+		8FD2AAF01FA9E45C00AE3203 /* FK_UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2AAEF1FA9E45C00AE3203 /* FK_UIDeviceExtension.swift */; };
 		C1D327906FC636EB2FDAE437 /* Pods_KUAIXIAO_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14988DE91CD1598CC7D74FF /* Pods_KUAIXIAO_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +104,14 @@
 		623AA3B6E079C6D2E6CCD90E /* Pods-KUAIXIAO_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_Swift/Pods-KUAIXIAO_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		70DE7A274C49B7336040A5A9 /* Pods-KUAIXIAO_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		83B1910C7B59B33A427E84C7 /* Pods_KUAIXIAO_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BEB1FA73CC7008E7E0B /* mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac.swift; sourceTree = "<group>"; };
+		8F7A7BEE1FA74322008E7E0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BF51FA74337008E7E0B /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BF61FA74337008E7E0B /* FillableLoaders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FillableLoaders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BF71FA74337008E7E0B /* Onboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Onboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BF81FA74337008E7E0B /* RAMAnimatedTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BF91FA74337008E7E0B /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7A7BFA1FA74337008E7E0B /* SJProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SJProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA827521FA1F864002D59A5 /* KX_MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MainTabBarVC.swift; sourceTree = "<group>"; };
 		8FA827581FA1FA32002D59A5 /* 向右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "向右.png"; sourceTree = "<group>"; };
 		8FA827591FA1FA32002D59A5 /* 赞过回复的人60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赞过回复的人60.png"; sourceTree = "<group>"; };
@@ -131,6 +148,9 @@
 		8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_WorkVC.swift; sourceTree = "<group>"; };
 		8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MeViewController.swift; sourceTree = "<group>"; };
 		8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_RequestTool.swift; sourceTree = "<group>"; };
+		8FD2AAED1FA9E37B00AE3203 /* FK_NSStringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FK_NSStringExtension.h; sourceTree = "<group>"; };
+		8FD2AAEE1FA9E40100AE3203 /* FK_UIDeviceExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FK_UIDeviceExtension.h; sourceTree = "<group>"; };
+		8FD2AAEF1FA9E45C00AE3203 /* FK_UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_UIDeviceExtension.swift; sourceTree = "<group>"; };
 		B15103C2A0BD650C29607461 /* Pods-KUAIXIAO_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C150567BC2680A67054ADC8E /* Pods_KUAIXIAO_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA93EB9F38C110E52B9851 /* Pods-KUAIXIAO_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftUITests/Pods-KUAIXIAO_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +164,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7A7BEF1FA74337008E7E0B /* DZNEmptyDataSet.framework in Frameworks */,
+				8F7A7BF01FA74337008E7E0B /* FillableLoaders.framework in Frameworks */,
+				8F7A7BF11FA74337008E7E0B /* Onboard.framework in Frameworks */,
+				8F7A7BF21FA74337008E7E0B /* RAMAnimatedTabBarController.framework in Frameworks */,
+				8F7A7BF31FA74337008E7E0B /* Reachability.framework in Frameworks */,
+				8F7A7BF41FA74337008E7E0B /* SJProgressHUD.framework in Frameworks */,
+				8F7A7BED1FA74322008E7E0B /* Alamofire.framework in Frameworks */,
 				C1D327906FC636EB2FDAE437 /* Pods_KUAIXIAO_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,9 +220,11 @@
 			isa = PBXGroup;
 			children = (
 				3EA5EE391F98C04B00606053 /* AppDelegate.swift */,
+				8F7A7BEB1FA73CC7008E7E0B /* mac.swift */,
 				3EA5EE451F98C04B00606053 /* Info.plist */,
 				8FA827AF1FA20588002D59A5 /* FK_RequestTool */,
 				3EFDE4061F98C6B100810993 /* Class */,
+				8FD2AAEA1FA9E2B900AE3203 /* Tool */,
 				8FA827561FA1FA32002D59A5 /* resources */,
 				3EFDE4131F98C7E700810993 /* Other */,
 			);
@@ -297,6 +326,13 @@
 		893C7A7FF4AE80FCFBC44BB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F7A7BF51FA74337008E7E0B /* DZNEmptyDataSet.framework */,
+				8F7A7BF61FA74337008E7E0B /* FillableLoaders.framework */,
+				8F7A7BF71FA74337008E7E0B /* Onboard.framework */,
+				8F7A7BF81FA74337008E7E0B /* RAMAnimatedTabBarController.framework */,
+				8F7A7BF91FA74337008E7E0B /* Reachability.framework */,
+				8F7A7BFA1FA74337008E7E0B /* SJProgressHUD.framework */,
+				8F7A7BEE1FA74322008E7E0B /* Alamofire.framework */,
 				3EFDE3FF1F98C66900810993 /* KUAIXIAO_SwiftTests */,
 				3EFDE4021F98C66900810993 /* KUAIXIAO_SwiftUITests */,
 				F14988DE91CD1598CC7D74FF /* Pods_KUAIXIAO_Swift.framework */,
@@ -514,6 +550,16 @@
 				8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */,
 			);
 			path = FK_RequestTool;
+			sourceTree = "<group>";
+		};
+		8FD2AAEA1FA9E2B900AE3203 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2AAED1FA9E37B00AE3203 /* FK_NSStringExtension.h */,
+				8FD2AAEF1FA9E45C00AE3203 /* FK_UIDeviceExtension.swift */,
+				8FD2AAEE1FA9E40100AE3203 /* FK_UIDeviceExtension.h */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -794,17 +840,23 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KUAIXIAO_Swift/Pods-KUAIXIAO_Swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/FillableLoaders/FillableLoaders.framework",
+				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SJProgressHUD/SJProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FillableLoaders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -849,6 +901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7A7BEC1FA73CC7008E7E0B /* mac.swift in Sources */,
 				3EA5EE3A1F98C04B00606053 /* AppDelegate.swift in Sources */,
 				8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */,
 				3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */,
@@ -856,6 +909,7 @@
 				8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */,
 				8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */,
 				8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */,
+				8FD2AAF01FA9E45C00AE3203 /* FK_UIDeviceExtension.swift in Sources */,
 				8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
