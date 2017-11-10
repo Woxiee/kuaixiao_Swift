@@ -63,8 +63,8 @@ func FKLog<T>(message: T,
     }
 }
 
-let FKURL = "http://192.168.2.38"               //吴放
-//let FKURL = "http://192.168.2.13:8011"     //13
+//let FKURL = "http://192.168.2.38"               //吴放
+let FKURL = "http://192.168.2.13:8011"     //13
 //let FKURL = "http://open.fecxiao.com"      //正式服务器
 
 

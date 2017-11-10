@@ -24,7 +24,6 @@ class KX_LoginVC: UIViewController {
         self.setup()
         self.setConfiguration()
         self.getTokenReqeust()
-        self.getLogInfoRequest()
      
     }
     
@@ -45,7 +44,8 @@ class KX_LoginVC: UIViewController {
         {
             DispatchQueue.main.asyncAfter(deadline:.now() + 3, execute: {
                 SJProgressHUD.dismiss()
-                self.view.window?.rootViewController = KX_MainTabBarVC()
+//                self.view.window?.rootViewController = KX_MainTabBarVC()
+                self.getLogInfoRequest()
 
             })
         
@@ -56,13 +56,8 @@ class KX_LoginVC: UIViewController {
     func getTokenReqeust()  {
         
         var  params  = Dictionary<String,NSObject>()
-        params["appId"] = APPID as NSObject
-        params["deviceName"] = FK_UIDeviceExtension.current.modelName as NSObject
-        params["timeStamp"] = TIMESTAMP as NSObject
-        params["imei"] = "888888" as NSObject
-        params["version"] = "1.0.0" as NSObject
 
-        FK_RequestTool.sharedInstance .getRequest(urlString: "\(FKURL)/api/common/getToken?", params: params, success: { (result) in
+        FK_RequestTool.sharedInstance .getRequest(urlString: "/api/common/getToken?", params: params, success: { (result) in
             let code = result["code"] as?String
             if(code == "000"){
                FKLog(message: "666")
@@ -82,10 +77,41 @@ class KX_LoginVC: UIViewController {
     }
     
     func getLogInfoRequest() {
+        var  params  = Dictionary<String,AnyObject>()
+        params["account"] = _userTF.text! as? AnyObject
         
-        
+        params["password"] = _passWordTF.text! as? AnyObject
+        FK_RequestTool.sharedInstance.postReques(urlString:"/api/login/login?", params: params,
+                                                 success: { (result) in
+                                                    let code = result["code"] as?String
+                                                    if(code == "000"){
+                                                        FKLog(message: "666")
+                                                        if let data = result["data"]{
+                                                            if let openId = data["data"]{
+                                                                KX_UserInfo.sharedInstance.openId = (openId as?String)!
+                                                                
+                                                              
+                                                            }
+                                                            self.getDeveEquipmentRequest(isAuthor: "222")
+                                                            
+                                                        }
+                                                    }
+
+        }, failture: { (erre) in
+            
+        })
         
     }
     
-  
+    
+    func getDeveEquipmentRequest(isAuthor:String) {
+        var  params  = Dictionary<String,AnyObject>()
+        params["isAuthor"] = "1" as AnyObject
+//        125         let str2=String(format: "%i+%.1f=?", xx, yy)
+        params["deviceId"] = "68CBA83D-28D4-4BE3-AAAA-DA5B1666241A" as AnyObject
+        params["account"] = _userTF.text as AnyObject
+        params["account"] = KX_UserInfo.sharedInstance.openId as AnyObject
+
+    }
+    
 }
