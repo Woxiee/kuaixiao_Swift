@@ -62,6 +62,13 @@
 		8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */; };
 		8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */; };
 		8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */; };
+		8FCD6A3D1FBB141F0092C793 /* FK_LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A3C1FBB141F0092C793 /* FK_LogModel.swift */; };
+		8FCD6A3F1FBB142F0092C793 /* KX_LogVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A3E1FBB142F0092C793 /* KX_LogVModel.swift */; };
+		8FCD6A411FBB144D0092C793 /* KX_LogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */; };
+		8FCD6A481FBB19850092C793 /* WHC_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A441FBB19850092C793 /* WHC_Frame.swift */; };
+		8FCD6A491FBB19850092C793 /* WHC_StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A451FBB19850092C793 /* WHC_StackView.swift */; };
+		8FCD6A4A1FBB19850092C793 /* WHC_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A461FBB19850092C793 /* WHC_AutoLayout.swift */; };
+		8FCD6A4B1FBB19850092C793 /* WHC_AutoCellHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A471FBB19850092C793 /* WHC_AutoCellHeight.swift */; };
 		8FD2AAF01FA9E45C00AE3203 /* FK_UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2AAEF1FA9E45C00AE3203 /* FK_UIDeviceExtension.swift */; };
 		C1D327906FC636EB2FDAE437 /* Pods_KUAIXIAO_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14988DE91CD1598CC7D74FF /* Pods_KUAIXIAO_Swift.framework */; };
 /* End PBXBuildFile section */
@@ -150,6 +157,13 @@
 		8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_WorkVC.swift; sourceTree = "<group>"; };
 		8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MeViewController.swift; sourceTree = "<group>"; };
 		8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_RequestTool.swift; sourceTree = "<group>"; };
+		8FCD6A3C1FBB141F0092C793 /* FK_LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_LogModel.swift; sourceTree = "<group>"; };
+		8FCD6A3E1FBB142F0092C793 /* KX_LogVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LogVModel.swift; sourceTree = "<group>"; };
+		8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LogViewCell.swift; sourceTree = "<group>"; };
+		8FCD6A441FBB19850092C793 /* WHC_Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_Frame.swift; sourceTree = "<group>"; };
+		8FCD6A451FBB19850092C793 /* WHC_StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_StackView.swift; sourceTree = "<group>"; };
+		8FCD6A461FBB19850092C793 /* WHC_AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_AutoLayout.swift; sourceTree = "<group>"; };
+		8FCD6A471FBB19850092C793 /* WHC_AutoCellHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_AutoCellHeight.swift; sourceTree = "<group>"; };
 		8FD2AAED1FA9E37B00AE3203 /* FK_NSStringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FK_NSStringExtension.h; sourceTree = "<group>"; };
 		8FD2AAEF1FA9E45C00AE3203 /* FK_UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_UIDeviceExtension.swift; sourceTree = "<group>"; };
 		B15103C2A0BD650C29607461 /* Pods-KUAIXIAO_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -224,6 +238,7 @@
 				8F7A7BEB1FA73CC7008E7E0B /* mac.swift */,
 				3EA5EE451F98C04B00606053 /* Info.plist */,
 				8FA827AF1FA20588002D59A5 /* FK_RequestTool */,
+				8FCD6A421FBB19850092C793 /* Vender */,
 				3EFDE4061F98C6B100810993 /* Class */,
 				8FD2AAEA1FA9E2B900AE3203 /* Tool */,
 				8FA827561FA1FA32002D59A5 /* resources */,
@@ -519,6 +534,7 @@
 		8FA827A51FA1FD1B002D59A5 /* VModels */ = {
 			isa = PBXGroup;
 			children = (
+				8FCD6A3E1FBB142F0092C793 /* KX_LogVModel.swift */,
 			);
 			path = VModels;
 			sourceTree = "<group>";
@@ -526,6 +542,7 @@
 		8FA827A61FA1FD1B002D59A5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8FCD6A3C1FBB141F0092C793 /* FK_LogModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -541,6 +558,7 @@
 		8FA827A81FA1FD1B002D59A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -551,6 +569,25 @@
 				8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */,
 			);
 			path = FK_RequestTool;
+			sourceTree = "<group>";
+		};
+		8FCD6A421FBB19850092C793 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD6A431FBB19850092C793 /* WHC_LayoutKit */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8FCD6A431FBB19850092C793 /* WHC_LayoutKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD6A441FBB19850092C793 /* WHC_Frame.swift */,
+				8FCD6A451FBB19850092C793 /* WHC_StackView.swift */,
+				8FCD6A461FBB19850092C793 /* WHC_AutoLayout.swift */,
+				8FCD6A471FBB19850092C793 /* WHC_AutoCellHeight.swift */,
+			);
+			path = WHC_LayoutKit;
 			sourceTree = "<group>";
 		};
 		8FD2AAEA1FA9E2B900AE3203 /* Tool */ = {
@@ -847,7 +884,9 @@
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SJProgressHUD/SJProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SexyJson/SexyJson.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/WHC_Layout/WHC_Layout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -858,7 +897,9 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SJProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SexyJson.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_Layout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -902,17 +943,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCD6A491FBB19850092C793 /* WHC_StackView.swift in Sources */,
 				8F7A7BEC1FA73CC7008E7E0B /* mac.swift in Sources */,
+				8FCD6A3F1FBB142F0092C793 /* KX_LogVModel.swift in Sources */,
+				8FCD6A481FBB19850092C793 /* WHC_Frame.swift in Sources */,
+				8FCD6A411FBB144D0092C793 /* KX_LogViewCell.swift in Sources */,
 				3EA5EE3A1F98C04B00606053 /* AppDelegate.swift in Sources */,
 				8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */,
 				3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */,
+				8FCD6A4A1FBB19850092C793 /* WHC_AutoLayout.swift in Sources */,
 				8FA827AA1FA1FD92002D59A5 /* KX_MessageVC.swift in Sources */,
 				8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */,
 				8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */,
+				8FCD6A4B1FBB19850092C793 /* WHC_AutoCellHeight.swift in Sources */,
 				8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */,
 				8FD2AAF01FA9E45C00AE3203 /* FK_UIDeviceExtension.swift in Sources */,
 				8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */,
 				8F6248D41FB1D70800D73135 /* KX_UserInfo.swift in Sources */,
+				8FCD6A3D1FBB141F0092C793 /* FK_LogModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

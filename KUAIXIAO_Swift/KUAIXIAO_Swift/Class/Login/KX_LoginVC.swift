@@ -55,15 +55,17 @@ class KX_LoginVC: UIViewController {
     
     func getTokenReqeust()  {
         
-        var  params  = Dictionary<String,NSObject>()
+        let  params  = Dictionary<String,String>()
 
         FK_RequestTool.sharedInstance .getRequest(urlString: "/api/common/getToken?", params: params, success: { (result) in
-            let code = result["code"] as?String
+            
+            guard let dict =  result as? [String: String]else{return}
+            let code = dict["code"]
             if(code == "000"){
                FKLog(message: "666")
-                if let data = result["data"]{
+                if let data = dict["data"] as? [String: Any] {
                     if let token = data["token"]{
-                        self._token = token as?String
+                        self._token = token as! String
                         
                     }
                     
@@ -77,10 +79,10 @@ class KX_LoginVC: UIViewController {
     }
     
     func getLogInfoRequest() {
-        var  params  = Dictionary<String,AnyObject>()
-        params["account"] = _userTF.text! as? AnyObject
+        var  params  = Dictionary<String,String>()
+        params["account"] = _userTF.text!
         
-        params["password"] = _passWordTF.text! as? AnyObject
+        params["password"] = _passWordTF.text!
         FK_RequestTool.sharedInstance.postReques(urlString:"/api/login/login?", params: params,
                                                  success: { (result) in
                                                     let code = result["code"] as?String
@@ -92,7 +94,7 @@ class KX_LoginVC: UIViewController {
                                                                 
                                                               
                                                             }
-                                                            self.getDeveEquipmentRequest(isAuthor: "222")
+                                                            self.getDeveEquipmentRequest()
                                                             
                                                         }
                                                     }
@@ -104,14 +106,19 @@ class KX_LoginVC: UIViewController {
     }
     
     
-    func getDeveEquipmentRequest(isAuthor:String) {
-        var  params  = Dictionary<String,AnyObject>()
-        params["isAuthor"] = "1" as AnyObject
-//        125         let str2=String(format: "%i+%.1f=?", xx, yy)
-        params["deviceId"] = "68CBA83D-28D4-4BE3-AAAA-DA5B1666241A" as AnyObject
-        params["account"] = _userTF.text as AnyObject
-        params["account"] = KX_UserInfo.sharedInstance.openId as AnyObject
-
+    func getDeveEquipmentRequest() {
+        var  params  = Dictionary<String,String>()
+        params["isAuthor"] = "1"
+        params["deviceId"] = "68CBA83D-28D4-4BE3-AAAA-DA5B1666241A"
+        params["account"] = _userTF.text
+        params["openId"] = KX_UserInfo.sharedInstance.openId
+        FK_RequestTool.sharedInstance.postReques(urlString: "/api/user/authorization?", params: params, success: { (result) in
+            FKLog(message: "666")
+            self.view.window?.rootViewController = KX_MainTabBarVC()
+        }) { (error) in
+            
+        }
+        
     }
     
 }

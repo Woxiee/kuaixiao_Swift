@@ -5,8 +5,10 @@ PODS:
   - Onboard (2.3.1)
   - RAMAnimatedTabBarController (2.0.13)
   - ReachabilitySwift (4.1.0)
+  - SexyJson (0.0.9)
   - SJProgressHUD (0.1.0)
-  - SwiftyJSON (3.1.4)
+  - SwiftyJSON (4.0.0)
+  - WHC_Layout (1.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
@@ -15,8 +17,10 @@ DEPENDENCIES:
   - Onboard
   - RAMAnimatedTabBarController (~> 2.0.13)
   - ReachabilitySwift
+  - SexyJson
   - SJProgressHUD
   - SwiftyJSON
+  - WHC_Layout
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
@@ -25,9 +29,11 @@ SPEC CHECKSUMS:
   Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
   RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SexyJson: c1c666d56ba69656230a25eecd70f9434452e807
   SJProgressHUD: 37b31b0a03f29878f906451e1fdb5513ba4b5da5
-  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  WHC_Layout: 33a07f1654fc2f2192645fd85032fff150569920
 
-PODFILE CHECKSUM: 6ef19717564c3bf41a0e743e6e647cff972f54df
+PODFILE CHECKSUM: 23c09d832e73ba3e533cd3473237f67ffc6d992e
 
 COCOAPODS: 1.3.1

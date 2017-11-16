@@ -9,27 +9,21 @@
 import UIKit
 
 class KX_MessageVC: UIViewController {
+    fileprivate lazy var logVModel : KX_LogVModel = KX_LogVModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        loadData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
+}
+
+extension KX_MessageVC{
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func loadData(){
+        logVModel.requestData {
+        
+        }
     }
-    */
-
 }

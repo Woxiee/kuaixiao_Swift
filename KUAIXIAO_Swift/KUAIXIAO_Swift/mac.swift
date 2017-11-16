@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 import SJProgressHUD
-
+import SexyJson
 /*********颜色***********/
 //RGB转换
 func RGB(r:CGFloat,g:CGFloat,b:CGFloat) ->UIColor{
