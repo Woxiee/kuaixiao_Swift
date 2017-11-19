@@ -34,6 +34,20 @@ class KX_LogVModel: NSObject {
         params["openId"] = KX_UserInfo.sharedInstance.openId
         FK_RequestTool.sharedInstance.postReques(urlString: "/api/worklog/fetchWorkLogsByCondition?", params: params, success: { (result) in
             FKLog(message: "666")
+            guard let dict = result as? [String : Any] else{return}
+            let  code = dict["code"] as? String
+            if (code == "000") {
+                let data = dict["data"] as? [String : Any]
+                let dataReult = data?["data"] as? [String : Any]
+                let dataList  = dataReult?["workLogList"] as? [[String : AnyObject]]
+                let arrayModel = [WorkLogList].sexy_json(dataReult,keyPath: "workLogList")
+
+//                let arrayModel = dataList?.sexy_array()
+
+
+                
+            }
+            
            finishCallBack()
 
         }) { (error) in
