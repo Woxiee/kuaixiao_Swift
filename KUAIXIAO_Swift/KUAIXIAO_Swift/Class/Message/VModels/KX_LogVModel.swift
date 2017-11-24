@@ -40,18 +40,18 @@ class KX_LogVModel: NSObject {
                 let data = dict["data"] as? [String : Any]
                 let dataReult = data?["data"] as? [String : Any]
                 let dataList  = dataReult?["workLogList"] as? [[String : AnyObject]]
-                let arrayModel = [WorkLogList].sexy_json(dataReult,keyPath: "workLogList")
+                let arrayModel = [WorkLogList].sexy_json(dataReult,keyPath: "data.data.workLogList")
                 for item in dataList!{
                     let model = WorkLogList.sexy_json(item)
                     self.logGroups.append(model!)
                 }
 //                let arrayModel = dataList?.sexy_array()
 
+                finishCallBack()
 
                 
             }
             
-           finishCallBack()
 
         }) { (error) in
             

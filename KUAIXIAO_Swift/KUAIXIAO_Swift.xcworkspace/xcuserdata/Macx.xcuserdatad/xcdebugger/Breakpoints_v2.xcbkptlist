@@ -4,51 +4,11 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KUAIXIAO_Swift/Class/Message/VCs/KX_MessageVC.swift"
-            timestampString = "532526611.316872"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KUAIXIAO_Swift.KX_MessageVC.loadData() -&gt; ()"
-                  moduleName = "KUAIXIAO_Swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Macx/Documents/GitHub/kuaixiao_Swift/KUAIXIAO_Swift/KUAIXIAO_Swift/Class/Message/VCs/KX_MessageVC.swift"
-                  timestampString = "532527740.219707"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "14">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in KUAIXIAO_Swift.KX_MessageVC.loadData() -&gt; ()"
-                  moduleName = "KUAIXIAO_Swift"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Macx/Documents/GitHub/kuaixiao_Swift/KUAIXIAO_Swift/KUAIXIAO_Swift/Class/Message/VCs/KX_MessageVC.swift"
-                  timestampString = "532527740.222942"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "4">
-               </Location>
-            </Locations>
+            continueAfterRunningActions = "No">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,11 +18,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "KUAIXIAO_Swift/Class/Message/VModels/KX_LogVModel.swift"
-            timestampString = "532526611.316996"
+            timestampString = "533117878.546284"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "unknown"
             landmarkType = "0">
          </BreakpointContent>
