@@ -79,7 +79,7 @@ struct WorkListReplyIsRestore: SexyJson {
     
 }
 
-struct WorkLogList: SexyJson {
+struct FK_LogModel: SexyJson {
     var logSummary: String!
     var isAttention: String!
     var param2: String!
@@ -152,17 +152,17 @@ struct WorkLogList: SexyJson {
 }
 
 
-struct FK_LogModel: SexyJson {
-    
-    var  workLogList:[WorkLogList]!
-    
-    mutating func sexyMap(_ map: [String : Any]) {
-        workLogList       <<<        map["workLogList"]
-
-    }
-    
-    
-}
+//struct FK_LogModel: SexyJson {
+//    
+//    var  workLogList:[WorkLogList]!
+//    
+//    mutating func sexyMap(_ map: [String : Any]) {
+//        workLogList       <<<        map["workLogList"]
+//
+//    }
+//    
+//    
+//}
 
 
 

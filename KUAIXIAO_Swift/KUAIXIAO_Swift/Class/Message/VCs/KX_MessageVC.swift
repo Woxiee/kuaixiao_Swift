@@ -16,16 +16,22 @@ class KX_MessageVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         tableviews.delegate = self
         tableviews.dataSource = self
         tableviews.separatorStyle = UITableViewCellSeparatorStyle.none
+        tableviews.register(KX_LogCell.classForCoder(), forCellReuseIdentifier: "LogCellID")
+
         return tableviews
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadData()
         setIU()
 
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        loadData()
 
+    }
 
     func setIU() {
         self.view.addSubview(self.tableView)
@@ -56,13 +62,11 @@ extension KX_MessageVC{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let iderntify:String = "LogCellID"
         let cell = KX_LogCell(style:UITableViewCellStyle.default, reuseIdentifier:iderntify)
-        cell.iconHeadView?.image = UIImage(named:"icon")
+        cell.logModel = self.dataSoucre[indexPath.row] as? FK_LogModel
         return cell
-        
     }
     
-    
-    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 200
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewCell.whc_CellHeightForIndexPath(indexPath , tableView: tableView)
     }
 }

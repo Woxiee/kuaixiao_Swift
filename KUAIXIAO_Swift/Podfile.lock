@@ -1,19 +1,21 @@
 PODS:
-  - Alamofire (4.5.1)
+  - Alamofire (4.6.0)
   - DZNEmptyDataSet (1.8.1)
   - FillableLoaders (1.3.0)
+  - Kingfisher (4.5.0)
   - Onboard (2.3.1)
   - RAMAnimatedTabBarController (2.0.13)
   - ReachabilitySwift (4.1.0)
-  - SexyJson (0.0.9)
+  - SexyJson (0.1.0)
   - SJProgressHUD (0.1.0)
   - SwiftyJSON (4.0.0)
-  - WHC_Layout (1.1.4)
+  - WHC_Layout (1.1.4.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - DZNEmptyDataSet
   - FillableLoaders (~> 1.3.0)
+  - Kingfisher
   - Onboard
   - RAMAnimatedTabBarController (~> 2.0.13)
   - ReachabilitySwift
@@ -23,17 +25,18 @@ DEPENDENCIES:
   - WHC_Layout
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FillableLoaders: 4decb0c33ce84a7da0da7be6b0fb15a87cb9906b
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
   Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
   RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
-  SexyJson: c1c666d56ba69656230a25eecd70f9434452e807
+  SexyJson: 4efdebb8e6e22768a41c6c8a7d90256f083fb48a
   SJProgressHUD: 37b31b0a03f29878f906451e1fdb5513ba4b5da5
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
-  WHC_Layout: 33a07f1654fc2f2192645fd85032fff150569920
+  WHC_Layout: 21b438ce651bf85d9ac28b0a47273a048688f375
 
-PODFILE CHECKSUM: 23c09d832e73ba3e533cd3473237f67ffc6d992e
+PODFILE CHECKSUM: e868a7b63417e44ef573bbda4db363cc99d496db
 
 COCOAPODS: 1.3.1

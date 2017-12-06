@@ -91,20 +91,16 @@ class KX_LoginVC: UIViewController {
                                                         if let data = result["data"]{
                                                             if let openId = data["data"]{
                                                                 KX_UserInfo.sharedInstance.openId = (openId as?String)!
-                                                                
-                                                              
                                                             }
                                                             self.getDeveEquipmentRequest()
                                                             
                                                         }
                                                     }
-
         }, failture: { (erre) in
             
         })
         
     }
-    
     
     func getDeveEquipmentRequest() {
         var  params  = Dictionary<String,String>()

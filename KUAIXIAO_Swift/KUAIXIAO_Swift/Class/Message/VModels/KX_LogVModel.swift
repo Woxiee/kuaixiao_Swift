@@ -9,7 +9,7 @@
 import UIKit
 
 class KX_LogVModel: NSObject {
-    lazy var logGroups :[WorkLogList] = [WorkLogList]()
+    lazy var logGroups :[FK_LogModel] = [FK_LogModel]()
     
     
     func loadLogGroupData(URLString: String, params:[String : Any]? = nil, finishedCallback: @escaping ()->()) {
@@ -37,14 +37,16 @@ class KX_LogVModel: NSObject {
             guard let dict = result as? [String : Any] else{return}
             let  code = dict["code"] as? String
             if (code == "000") {
-                let data = dict["data"] as? [String : Any]
-                let dataReult = data?["data"] as? [String : Any]
-                let dataList  = dataReult?["workLogList"] as? [[String : AnyObject]]
-                let arrayModel = [WorkLogList].sexy_json(dataReult,keyPath: "data.data.workLogList")
-                for item in dataList!{
-                    let model = WorkLogList.sexy_json(item)
-                    self.logGroups.append(model!)
-                }
+//                let data = dict["data"] as? [String : Any]
+//                let dataReult = data?["data"] as? [String : Any]
+//                let dataList  = dataReult?["workLogList"] as? [[String : AnyObject]]
+                let arrayModel = [FK_LogModel].sexy_json(result,keyPath:"data.data.workLogList")
+//                for item in dataList!{
+//                    let model = WorkLogList.sexy_json(item)
+//                    self.logGroups.append(model!)
+//                }
+                self.logGroups = arrayModel!
+
 //                let arrayModel = dataList?.sexy_array()
 
                 finishCallBack()
