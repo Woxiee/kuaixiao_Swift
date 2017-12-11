@@ -19,8 +19,12 @@ class KX_LogCell: UITableViewCell {
             nameLB.text = logmModels.createUserName
             screLabel.text  = "未点评"
             dateLabel.text  = logmModels.createTime
-            commtemsLB.text = logmModels.tomorrowSummary
-            self.whc_CellBottomView = commtemsLB
+//            todaySummary.text = logmModels.todaySummary
+//            tomorrowSummary.text = logmModels.tomorrowSummary
+//            logSummary.text = logmModels.logSummary
+            contentDetailView.logModel = logmModels
+            self.whc_CellBottomOffset = 40
+            self.whc_CellBottomView = contentDetailView
 
         }
     }
@@ -30,7 +34,11 @@ class KX_LogCell: UITableViewCell {
     let dateLabel = UILabel()
     let screLabel = UILabel()
     let markImgeView = UIImageView()
-    var commtemsLB = UILabel()
+    let todaySummary = UILabel()
+    let tomorrowSummary = UILabel()
+    let logSummary = UILabel()
+
+    
     let contentDetailView = KX_ContentDetailView()
     let bottomview  = UIView()
 
@@ -55,15 +63,25 @@ class KX_LogCell: UITableViewCell {
         self.contentView.addSubview(nameLB)
 
         dateLabel.font = font12
+        dateLabel.textAlignment = NSTextAlignment.left
         self.contentView.addSubview(dateLabel)
 
         screLabel.font = font12
         self.contentView.addSubview(screLabel)
-
-        commtemsLB.font = font13
-        self.contentView.addSubview(commtemsLB)
         
         self.contentView.addSubview(contentDetailView)
+        
+
+//        todaySummary.font = font13
+//        self.contentView.addSubview(todaySummary)
+//
+//
+//        tomorrowSummary.font = font13
+//        self.contentView.addSubview(tomorrowSummary)
+//
+//
+//        logSummary.font = font13
+//        self.contentView.addSubview(logSummary)
         
         self.contentView.addSubview(bottomview)
         
@@ -71,8 +89,14 @@ class KX_LogCell: UITableViewCell {
         iconHeadView.whc_Left(margin).whc_Top(margin).whc_Width(40).whc_Height(40)
         nameLB.whc_Left(margin, toView: iconHeadView).whc_Top(margin+3).whc_WidthAuto().whc_Height(18)
         screLabel.whc_Right(margin).whc_TopEqual(iconHeadView).whc_WidthAuto().whc_Height(18)
-        dateLabel.whc_Left(margin, toView: nameLB).whc_Top(margin, toView: nameLB).whc_Right(margin).whc_Height(15)
-        commtemsLB.whc_Left(margin).whc_Top(margin, toView: iconHeadView).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
+        dateLabel.whc_LeftEqual(nameLB).whc_Top(10, toView: nameLB).whc_Right(margin).whc_Height(15)
+//        todaySummary.whc_Left(margin).whc_Top(margin, toView: iconHeadView).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
+//
+//        tomorrowSummary.whc_Left(margin).whc_Top(margin, toView: todaySummary).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
+//
+//        logSummary.whc_Left(margin).whc_Top(margin, toView: tomorrowSummary).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
+//contentDetailView.whc_AutoSize(left: margin, top: margin, right: 10, bottom: 10, toView: iconHeadView)
+        contentDetailView.whc_Left(margin).whc_Top(margin, toView: iconHeadView).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
         
     }
 

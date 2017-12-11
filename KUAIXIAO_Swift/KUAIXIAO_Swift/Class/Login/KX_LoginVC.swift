@@ -9,7 +9,7 @@
 import UIKit
 import SJProgressHUD
 
-class KX_LoginVC: UIViewController {
+class KX_LoginVC: UIViewController{
 
     @IBOutlet weak var _userTF: UITextField!
     @IBOutlet weak var _passWordTF: UITextField!
