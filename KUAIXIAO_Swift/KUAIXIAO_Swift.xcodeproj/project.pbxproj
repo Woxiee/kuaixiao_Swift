@@ -17,6 +17,7 @@
 		3EA5EE5A1F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5EE591F98C04B00606053 /* KUAIXIAO_SwiftUITests.swift */; };
 		3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFDE40E1F98C79200810993 /* KX_LoginVC.swift */; };
 		3EFDE4111F98C79200810993 /* KX_LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFDE40F1F98C79200810993 /* KX_LoginVC.xib */; };
+		8F372BF91FCD82A300C5410B /* KX_ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F372BF81FCD82A200C5410B /* KX_ContentDetailView.swift */; };
 		8F6248D41FB1D70800D73135 /* KX_UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6248D31FB1D70800D73135 /* KX_UserInfo.swift */; };
 		8F7A7BEC1FA73CC7008E7E0B /* mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7A7BEB1FA73CC7008E7E0B /* mac.swift */; };
 		8F7A7BED1FA74322008E7E0B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7A7BEE1FA74322008E7E0B /* Alamofire.framework */; };
@@ -58,13 +59,13 @@
 		8FA827921FA1FA32002D59A5 /* 头部-返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827741FA1FA32002D59A5 /* 头部-返回.png */; };
 		8FA827931FA1FA32002D59A5 /* 选择员工-默认头像92.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */; };
 		8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827951FA1FD0D002D59A5 /* KX_AddressVC.swift */; };
-		8FA827AA1FA1FD92002D59A5 /* KX_MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */; };
 		8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */; };
 		8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */; };
 		8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */; };
+		8FAB1BA31FC44A1D00B10F53 /* KX_MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB1BA21FC44A1D00B10F53 /* KX_MessageVC.swift */; };
+		8FAB1BA51FC58FA500B10F53 /* KX_LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAB1BA41FC58FA500B10F53 /* KX_LogCell.swift */; };
 		8FCD6A3D1FBB141F0092C793 /* FK_LogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A3C1FBB141F0092C793 /* FK_LogModel.swift */; };
 		8FCD6A3F1FBB142F0092C793 /* KX_LogVModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A3E1FBB142F0092C793 /* KX_LogVModel.swift */; };
-		8FCD6A411FBB144D0092C793 /* KX_LogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */; };
 		8FCD6A481FBB19850092C793 /* WHC_Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A441FBB19850092C793 /* WHC_Frame.swift */; };
 		8FCD6A491FBB19850092C793 /* WHC_StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A451FBB19850092C793 /* WHC_StackView.swift */; };
 		8FCD6A4A1FBB19850092C793 /* WHC_AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD6A461FBB19850092C793 /* WHC_AutoLayout.swift */; };
@@ -112,6 +113,7 @@
 		623AA3B6E079C6D2E6CCD90E /* Pods-KUAIXIAO_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_Swift/Pods-KUAIXIAO_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		70DE7A274C49B7336040A5A9 /* Pods-KUAIXIAO_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUAIXIAO_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUAIXIAO_SwiftTests/Pods-KUAIXIAO_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		83B1910C7B59B33A427E84C7 /* Pods_KUAIXIAO_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KUAIXIAO_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F372BF81FCD82A200C5410B /* KX_ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_ContentDetailView.swift; sourceTree = "<group>"; };
 		8F6248D31FB1D70800D73135 /* KX_UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_UserInfo.swift; sourceTree = "<group>"; };
 		8F7A7BEB1FA73CC7008E7E0B /* mac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac.swift; sourceTree = "<group>"; };
 		8F7A7BEE1FA74322008E7E0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,13 +155,13 @@
 		8FA827741FA1FA32002D59A5 /* 头部-返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头部-返回.png"; sourceTree = "<group>"; };
 		8FA827751FA1FA32002D59A5 /* 选择员工-默认头像92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选择员工-默认头像92.png"; sourceTree = "<group>"; };
 		8FA827951FA1FD0D002D59A5 /* KX_AddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KX_AddressVC.swift; sourceTree = "<group>"; };
-		8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MessageVC.swift; sourceTree = "<group>"; };
 		8FA827AB1FA1FE30002D59A5 /* KX_WorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_WorkVC.swift; sourceTree = "<group>"; };
 		8FA827AD1FA1FE40002D59A5 /* KX_MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MeViewController.swift; sourceTree = "<group>"; };
 		8FA827B01FA205A0002D59A5 /* FK_RequestTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_RequestTool.swift; sourceTree = "<group>"; };
+		8FAB1BA21FC44A1D00B10F53 /* KX_MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_MessageVC.swift; sourceTree = "<group>"; };
+		8FAB1BA41FC58FA500B10F53 /* KX_LogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LogCell.swift; sourceTree = "<group>"; };
 		8FCD6A3C1FBB141F0092C793 /* FK_LogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FK_LogModel.swift; sourceTree = "<group>"; };
 		8FCD6A3E1FBB142F0092C793 /* KX_LogVModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LogVModel.swift; sourceTree = "<group>"; };
-		8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KX_LogViewCell.swift; sourceTree = "<group>"; };
 		8FCD6A441FBB19850092C793 /* WHC_Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_Frame.swift; sourceTree = "<group>"; };
 		8FCD6A451FBB19850092C793 /* WHC_StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_StackView.swift; sourceTree = "<group>"; };
 		8FCD6A461FBB19850092C793 /* WHC_AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHC_AutoLayout.swift; sourceTree = "<group>"; };
@@ -476,6 +478,8 @@
 		8FA8279E1FA1FD1B002D59A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8FAB1BA41FC58FA500B10F53 /* KX_LogCell.swift */,
+				8F372BF81FCD82A200C5410B /* KX_ContentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -550,7 +554,7 @@
 		8FA827A71FA1FD1B002D59A5 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				8FA827A91FA1FD92002D59A5 /* KX_MessageVC.swift */,
+				8FAB1BA21FC44A1D00B10F53 /* KX_MessageVC.swift */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -558,7 +562,6 @@
 		8FA827A81FA1FD1B002D59A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8FCD6A401FBB144D0092C793 /* KX_LogViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -880,6 +883,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/FillableLoaders/FillableLoaders.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
@@ -893,6 +897,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FillableLoaders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
@@ -947,20 +952,21 @@
 				8F7A7BEC1FA73CC7008E7E0B /* mac.swift in Sources */,
 				8FCD6A3F1FBB142F0092C793 /* KX_LogVModel.swift in Sources */,
 				8FCD6A481FBB19850092C793 /* WHC_Frame.swift in Sources */,
-				8FCD6A411FBB144D0092C793 /* KX_LogViewCell.swift in Sources */,
+				8FAB1BA51FC58FA500B10F53 /* KX_LogCell.swift in Sources */,
 				3EA5EE3A1F98C04B00606053 /* AppDelegate.swift in Sources */,
 				8FA827AE1FA1FE40002D59A5 /* KX_MeViewController.swift in Sources */,
 				3EFDE4101F98C79200810993 /* KX_LoginVC.swift in Sources */,
 				8FCD6A4A1FBB19850092C793 /* WHC_AutoLayout.swift in Sources */,
-				8FA827AA1FA1FD92002D59A5 /* KX_MessageVC.swift in Sources */,
 				8FA827991FA1FD0D002D59A5 /* KX_AddressVC.swift in Sources */,
 				8FA827AC1FA1FE30002D59A5 /* KX_WorkVC.swift in Sources */,
 				8FCD6A4B1FBB19850092C793 /* WHC_AutoCellHeight.swift in Sources */,
 				8FA827B11FA205A0002D59A5 /* FK_RequestTool.swift in Sources */,
 				8FD2AAF01FA9E45C00AE3203 /* FK_UIDeviceExtension.swift in Sources */,
 				8FA827531FA1F864002D59A5 /* KX_MainTabBarVC.swift in Sources */,
+				8F372BF91FCD82A300C5410B /* KX_ContentDetailView.swift in Sources */,
 				8F6248D41FB1D70800D73135 /* KX_UserInfo.swift in Sources */,
 				8FCD6A3D1FBB141F0092C793 /* FK_LogModel.swift in Sources */,
+				8FAB1BA31FC44A1D00B10F53 /* KX_MessageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

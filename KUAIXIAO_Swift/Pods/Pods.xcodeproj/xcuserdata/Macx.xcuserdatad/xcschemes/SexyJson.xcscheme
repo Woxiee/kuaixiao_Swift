@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EA310618DCDECA7756C75AC720C8CCC2'
+               BlueprintIdentifier = 'BAA21B8C7D146D848928A2DC8192C1B5'
                BlueprintName = 'SexyJson'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SexyJson.framework'>

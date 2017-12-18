@@ -9,7 +9,7 @@
 import UIKit
 import SJProgressHUD
 
-class KX_LoginVC: UIViewController {
+class KX_LoginVC: UIViewController{
 
     @IBOutlet weak var _userTF: UITextField!
     @IBOutlet weak var _passWordTF: UITextField!
@@ -91,20 +91,16 @@ class KX_LoginVC: UIViewController {
                                                         if let data = result["data"]{
                                                             if let openId = data["data"]{
                                                                 KX_UserInfo.sharedInstance.openId = (openId as?String)!
-                                                                
-                                                              
                                                             }
                                                             self.getDeveEquipmentRequest()
                                                             
                                                         }
                                                     }
-
         }, failture: { (erre) in
             
         })
         
     }
-    
     
     func getDeveEquipmentRequest() {
         var  params  = Dictionary<String,String>()

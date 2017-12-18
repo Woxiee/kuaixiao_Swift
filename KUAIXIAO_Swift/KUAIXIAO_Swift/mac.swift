@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import SJProgressHUD
 import SexyJson
+import Kingfisher
 /*********颜色***********/
 //RGB转换
 func RGB(r:CGFloat,g:CGFloat,b:CGFloat) ->UIColor{
@@ -48,6 +49,34 @@ public func VIEW_HEIGHT(view:UIView)->CGFloat{
 }
 
 
+/// 颜色
+/// 正常色
+public let  BACKGROUND_COLOR =  RGB(r: 238, g: 241, b: 246)
+
+///蓝色
+public let  BACKGROUND_COLORHL =  RGB(r: 77, g: 107, b: 171)
+
+/// 明细字体颜色（灰色）
+public let  DETAILTEXTCOLOR =  RGB(r: 153, g: 115, b: 153)
+
+/// CRM— 红色
+public let  TITLETEXTREDCOLOR =  RGB(r: 230, g: 97, b: 100)
+
+/// /// 背景为青色
+public let  BAGKGROUFBGREENCOLOR =  RGB(r: 92, g: 202, b: 199)
+
+/// 新建字体  浅色黑
+public let  TITLETEXTLOWCOLOR =  RGB(r: 78, g: 78, b: 78)
+/// 标题字体颜色（黑色）
+public let TITLETEXTCOLOR  = UIColor.black
+
+/// 字体
+public let font12 = UIFont.systemFont(ofSize: 12)
+public let font13 = UIFont.systemFont(ofSize: 13)
+public let font14 = UIFont.systemFont(ofSize: 14)
+public let font15 = UIFont.systemFont(ofSize: 15)
+public let font16 = UIFont.systemFont(ofSize: 16)
+
 func FKLog<T>(message: T,
                  logError: Bool = false,
                  file: String = #file,
@@ -66,7 +95,6 @@ func FKLog<T>(message: T,
 //let FKURL = "http://192.168.2.38"               //吴放
 //let FKURL = "http://192.168.2.13:8011"     //13
 let FKURL = "http://open.fecxiao.com"      //正式服务器
-
 
 
 
