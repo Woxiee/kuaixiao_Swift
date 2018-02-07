@@ -22,9 +22,9 @@ class KX_LogCell: UITableViewCell {
 //            todaySummary.text = logmModels.todaySummary
 //            tomorrowSummary.text = logmModels.tomorrowSummary
 //            logSummary.text = logmModels.logSummary
-            contentDetailView.logModel = logmModels
+//            contentDetailView.logModel = logmModels
             self.whc_CellBottomOffset = 40
-            self.whc_CellBottomView = contentDetailView
+            self.whc_CellBottomView = bottomview
 
         }
     }
@@ -38,8 +38,9 @@ class KX_LogCell: UITableViewCell {
     let tomorrowSummary = UILabel()
     let logSummary = UILabel()
 
-    
-    let contentDetailView = KX_ContentDetailView()
+//    fileprivate let stackView1 = WHC_StackView()
+
+    let contentDetailView = WHC_StackView()
     let bottomview  = UIView()
 
     
@@ -90,14 +91,10 @@ class KX_LogCell: UITableViewCell {
         nameLB.whc_Left(margin, toView: iconHeadView).whc_Top(margin+3).whc_WidthAuto().whc_Height(18)
         screLabel.whc_Right(margin).whc_TopEqual(iconHeadView).whc_WidthAuto().whc_Height(18)
         dateLabel.whc_LeftEqual(nameLB).whc_Top(10, toView: nameLB).whc_Right(margin).whc_Height(15)
-//        todaySummary.whc_Left(margin).whc_Top(margin, toView: iconHeadView).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
-//
-//        tomorrowSummary.whc_Left(margin).whc_Top(margin, toView: todaySummary).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
-//
-//        logSummary.whc_Left(margin).whc_Top(margin, toView: tomorrowSummary).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
-//contentDetailView.whc_AutoSize(left: margin, top: margin, right: 10, bottom: 10, toView: iconHeadView)
+
         contentDetailView.whc_Left(margin).whc_Top(margin, toView: iconHeadView).whc_Right(margin, toView: self.contentView).whc_HeightAuto()
         
+        bottomview.whc_Left(margin).whc_Top(margin, toView: contentDetailView).whc_Right(margin, toView: self.contentView).whc_Height(45)
     }
-
+        
 }
